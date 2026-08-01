@@ -1,0 +1,39 @@
+== building ==
+
+== running tests ==
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 5 tests
+test branch_one_when_no_candidate_beats_refusal ... ok
+test branch_three_when_a_boundary_fact_is_unclassified ... ok
+test branch_two_when_reference_class_is_determined_empty ... ok
+test null_intervention_has_zero_j ... ok
+test warranted_repair_when_intervention_closes_ground_cheaply ... ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+== running toy_scenario example ==
+--- A: warranted repair ---
+  warranted: nudge-full (J = -1.9799)
+
+--- B: branch (1) — no intervention beats refusal ---
+  refused: Escalated(NoInterventionBeatsRefusal { best_candidate: Some(Intervention { id: "wrong-direction", effect: [-0.1, -0.1] }), best_j: 0.08485281374238542 })
+
+--- C: branch (2) — empty reference class ---
+  refused: Escalated(EmptyReferenceClass)
+
+--- D: branch (3) — coordinate deficiency ---
+  refused: Escalated(CoordinateDeficiency { unclassified_fact_ids: ["fact-2"] })
+
+
+all checks passed.
