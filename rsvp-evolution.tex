@@ -12625,3 +12625,33 @@ Consequently the transformer is not merely a statistical predictor.
 It is an organizational continuation machine maintaining stable contextual
 relationships across many interacting distinctions.
 
+\section{Attention}
+
+Self-attention computes
+
+\[
+\mathrm{Attention}(Q,K,V)
+=
+\mathrm{softmax}
+\left(
+\frac{QK^T}
+{\sqrt d}
+\right)V.
+\]
+
+Within RSVP this equation acquires a different interpretation.
+
+Rather than distributing probability alone, attention redistributes
+continuation capacity.
+
+Tokens compete for organizational influence.
+
+Those contributing most strongly to future admissibility receive increased
+repair resources.
+
+Attention therefore approximates the selective repair allocation discussed
+in the previous chapter.
+
+Its success derives not from exhaustive processing but from efficient
+organizational prioritization.
+
