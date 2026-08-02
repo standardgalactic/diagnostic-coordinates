@@ -5244,3 +5244,83 @@ The equality-constrained manifold
 will remain the primary object in this chapter. Boundary behavior will be
 treated through tangent cones and viable vector fields where necessary.
 
+\section{Admissible Tangent Vectors}
+
+A trajectory may remain in the admissible manifold only if its instantaneous
+velocity is tangent to that manifold.
+
+\begin{definition}[Admissible Tangent Space]
+
+For \(p\in\Adm_{\mathcal P}\), the admissible tangent space at \(p\) is
+
+\[
+T_p\Adm_{\mathcal P}
+=
+\ker d\mathcal C_p.
+\]
+
+A vector
+
+\[
+v\in T_p\mathcal P
+\]
+
+is called admissible at \(p\) if
+
+\[
+d\mathcal C_p(v)=0.
+\]
+
+\end{definition}
+
+\begin{proposition}[Tangency of Admissible Curves]
+
+Let
+
+\[
+\gamma:I\longrightarrow\Adm_{\mathcal P}
+\]
+
+be a smooth curve. Then
+
+\[
+\dot\gamma(t)
+\in
+T_{\gamma(t)}\Adm_{\mathcal P}
+\]
+
+for every \(t\in I\).
+
+\end{proposition}
+
+\begin{proof}
+
+Since \(\gamma(t)\in\Adm_{\mathcal P}\),
+
+\[
+\mathcal C(\gamma(t))=0
+\]
+
+for every \(t\). Differentiating gives
+
+\[
+d\mathcal C_{\gamma(t)}
+\bigl(
+\dot\gamma(t)
+\bigr)
+=
+0.
+\]
+
+Thus
+
+\[
+\dot\gamma(t)
+\in
+\ker d\mathcal C_{\gamma(t)}
+=
+T_{\gamma(t)}\Adm_{\mathcal P}.
+\]
+
+\end{proof}
+
