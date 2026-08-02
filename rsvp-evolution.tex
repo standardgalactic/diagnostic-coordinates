@@ -1558,3 +1558,57 @@ Repair therefore becomes an epistemic operation as well as a dynamical one.
 Every successful repair increases knowledge of the geometry governing the
 system.
 
+\section{Repair Operators}
+
+Let
+
+\[
+\Repair
+\]
+
+denote a family of repair operators.
+
+Each operator acts upon non-admissible configurations,
+
+\[
+R :
+\State
+\rightarrow
+\State.
+\]
+
+Unlike arbitrary transformations, repair operators possess a specific
+objective.
+
+They reduce structural violation.
+
+\begin{definition}[Repair Operator]
+
+A repair operator is a mapping
+
+\[
+R \in \Repair
+\]
+
+such that
+
+\[
+V(R(s))
+<
+V(s)
+\]
+
+whenever
+
+\[
+V(s) > 0.
+\]
+
+\end{definition}
+
+The definition intentionally remains general.
+
+Different disciplines instantiate different repair mechanisms.
+
+Only the mathematical role remains invariant.
+
