@@ -5948,3 +5948,126 @@ R(p).
 Thus exact repair is idempotent. Once admissibility has been restored,
 reapplying the same exact repair produces no further change.
 
+\section{Evolution and Repair}
+
+Ordinary dynamics and repair may be combined.
+
+Let
+
+\[
+Y\in\Gamma(T\mathcal P)
+\]
+
+be an ambient evolution field. Define the repair-corrected field
+
+\[
+X_\eta
+=
+Y
+-
+\eta\grad V,
+\]
+
+where
+
+\[
+\eta>0
+\]
+
+is a repair strength.
+
+The resulting dynamics are
+
+\[
+\boxed{
+\dot p
+=
+Y(p)
+-
+\eta\grad V(p).
+}
+\]
+
+The first term advances the system according to its unconstrained dynamics.
+The second suppresses departures from admissibility.
+
+\begin{proposition}[Violation Balance Law]
+
+Along repair-corrected dynamics,
+
+\[
+\frac{dV}{dt}
+=
+dV(Y)
+-
+\eta
+\|\grad V\|^2.
+\]
+
+\end{proposition}
+
+\begin{proof}
+
+By the chain rule,
+
+\[
+\frac{dV}{dt}
+=
+dV
+\left(
+Y-\eta\grad V
+\right)
+=
+dV(Y)
+-
+\eta dV(\grad V).
+\]
+
+Since
+
+\[
+dV(\grad V)
+=
+\|\grad V\|^2,
+\]
+
+the result follows.
+
+\end{proof}
+
+The term
+
+\[
+dV(Y)
+\]
+
+measures violation introduced by ordinary evolution, while
+
+\[
+\eta\|\grad V\|^2
+\]
+
+measures violation removed by repair.
+
+This yields an exact mathematical version of the competition between
+disturbance and restoration.
+
+\begin{corollary}[Sufficient Condition for Violation Reduction]
+
+If
+
+\[
+dV(Y)
+<
+\eta
+\|\grad V\|^2
+\]
+
+at a non-admissible state \(p\), then
+
+\[
+\frac{dV}{dt}<0.
+\]
+
+\end{corollary}
+
