@@ -1,0 +1,127 @@
+\documentclass[11pt,oneside]{book}
+
+%------------------------------------------------
+% Fonts
+%------------------------------------------------
+
+\usepackage{fontspec}
+\setmainfont{TeX Gyre Pagella}
+
+\usepackage{unicode-math}
+\setmathfont{Latin Modern Math}
+
+%------------------------------------------------
+% Layout
+%------------------------------------------------
+
+\usepackage[margin=1.1in]{geometry}
+
+\usepackage{microtype}
+
+%------------------------------------------------
+% Mathematics
+%------------------------------------------------
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{mathtools}
+\usepackage{mathrsfs}
+\usepackage{bm}
+
+%------------------------------------------------
+% Figures
+%------------------------------------------------
+
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+
+%------------------------------------------------
+% Hyperlinks
+%------------------------------------------------
+
+\usepackage[
+colorlinks=true,
+linkcolor=blue!50!black,
+citecolor=blue!50!black,
+urlcolor=blue!50!black
+]{hyperref}
+
+\usepackage[nameinlink]{cleveref}
+
+%------------------------------------------------
+% Index
+%------------------------------------------------
+
+\usepackage{imakeidx}
+\makeindex
+
+%------------------------------------------------
+% Theorems
+%------------------------------------------------
+
+\numberwithin{equation}{chapter}
+
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[chapter]
+\newtheorem{example}[definition]{Example}
+\newtheorem{remark}[definition]{Remark}
+
+\theoremstyle{plain}
+\newtheorem{theorem}[definition]{Theorem}
+\newtheorem{lemma}[definition]{Lemma}
+\newtheorem{proposition}[definition]{Proposition}
+\newtheorem{corollary}[definition]{Corollary}
+
+%------------------------------------------------
+% Operators
+%------------------------------------------------
+
+\DeclareMathOperator{\Hom}{Hom}
+\DeclareMathOperator{\Obj}{Obj}
+\DeclareMathOperator{\Aut}{Aut}
+\DeclareMathOperator{\End}{End}
+\DeclareMathOperator{\id}{id}
+\DeclareMathOperator{\grad}{grad}
+
+%------------------------------------------------
+% Commands
+%------------------------------------------------
+
+\newcommand{\State}{\mathcal{S}}
+\newcommand{\Theory}{\mathfrak{T}}
+\newcommand{\Adm}{\mathsf{Adm}}
+\newcommand{\Repair}{\mathcal{R}}
+\newcommand{\Constraint}{\mathcal{C}}
+
+%------------------------------------------------
+% Title
+%------------------------------------------------
+
+\title{
+The Evolution of RSVP\\[1em]
+\Large
+From Language to Plenum\\
+The Development of a Constraint-Based
+Research Program
+}
+
+\author{
+Flyxion\\
+Independent Researcher
+}
+
+\date{2026}
+
+\begin{document}
+
+\frontmatter
+
+\maketitle
+
+\tableofcontents
+
