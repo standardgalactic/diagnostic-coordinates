@@ -6451,3 +6451,37 @@ ordinary differential equations on manifolds applies.
 This theorem does not yet guarantee global continuation. Global existence
 requires additional completeness or boundedness assumptions.
 
+\section{Global Continuation Under Completeness}
+
+\begin{theorem}[Global Admissible Continuation]
+
+Let \((\Adm_{\mathcal P},g_{\Adm})\) be a complete Riemannian manifold. Let
+\(X\) be a smooth admissible vector field satisfying the linear growth bound
+
+\[
+\|X(p)\|
+\leq
+a+b\,d(p,p_{\ast})
+\]
+
+for some constants \(a,b\geq 0\) and fixed
+\(p_{\ast}\in\Adm_{\mathcal P}\).
+
+Then every maximal integral curve of \(X\) is defined for all
+
+\[
+t\in\mathbb R.
+\]
+
+\end{theorem}
+
+\begin{proof}
+
+The linear growth bound prevents finite-time escape to infinity. Completeness
+of the Riemannian metric ensures that bounded-time trajectories cannot leave
+the manifold through a missing limit point. Standard continuation results
+for ordinary differential equations on complete manifolds therefore imply
+global existence.
+
+\end{proof}
+
