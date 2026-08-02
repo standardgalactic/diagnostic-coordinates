@@ -17988,3 +17988,35 @@ reconstruction.
 
 Large distances correspond to substantial organizational change.
 
+\section{The Fisher Metric}
+
+In statistical information geometry, the Fisher information defines a
+natural metric.
+
+Given a family of probability distributions
+
+\[
+p(x;\theta),
+\]
+
+the Fisher metric is
+
+\[
+g_{ij}
+=
+\mathbb E
+\left[
+\frac{\partial\log p}
+{\partial\theta^i}
+\frac{\partial\log p}
+{\partial\theta^j}
+\right].
+\]
+
+Within RSVP, this construction serves as one possible realization of
+organizational distance.
+
+Alternative metrics may be preferable in biological, computational, or
+economic applications where probability distributions alone fail to
+capture organizational structure.
+
