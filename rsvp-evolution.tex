@@ -7411,3 +7411,85 @@ Nothing requires repair.
 
 Nothing requires modification.
 
+\section{Composition}
+
+Suppose
+
+\[
+f:
+(\State_1,\Adm_1)
+\rightarrow
+(\State_2,\Adm_2),
+\]
+
+and
+
+\[
+g:
+(\State_2,\Adm_2)
+\rightarrow
+(\State_3,\Adm_3).
+\]
+
+Then
+
+\[
+g\circ f
+\]
+
+satisfies
+
+\[
+(g\circ f)(\Adm_1)
+\subseteq
+\Adm_3.
+\]
+
+\begin{theorem}
+
+Composition of admissible morphisms is admissible.
+
+Consequently
+
+\[
+\mathbf{Adm}
+\]
+
+is a category.
+
+\end{theorem}
+
+\begin{proof}
+
+Since
+
+\[
+f(\Adm_1)
+\subseteq
+\Adm_2,
+\]
+
+and
+
+\[
+g(\Adm_2)
+\subseteq
+\Adm_3,
+\]
+
+we obtain
+
+\[
+(g\circ f)(\Adm_1)
+=
+g(f(\Adm_1))
+\subseteq
+g(\Adm_2)
+\subseteq
+\Adm_3.
+\]
+
+Associativity follows from ordinary function composition.
+
+\end{proof}
+
