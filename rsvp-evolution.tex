@@ -3615,3 +3615,74 @@ demands.
 
 The next section makes this requirement precise.
 
+\section{Local Violation and Repair Densities}
+
+Chapters 5 and 18 introduced the violation functional
+
+\[
+V(p)=\tfrac12\|\mathcal C(p)\|^2
+\]
+
+as a quantity defined on the finite-dimensional configuration space
+\(\mathcal P\). A field theory assigns a configuration to every point of
+spacetime simultaneously, so a single scalar violation value can no longer
+suffice: locality demands that violation, like the Lagrangian itself, be
+assigned pointwise.
+
+\begin{definition}[Structural Violation Density]
+Let \(\mathcal C(x)=\mathcal C\bigl(S(x),\mathbf V(x),\nabla S(x),\nabla
+\mathbf V(x)\bigr)\) denote the local admissibility constraint evaluated at
+the field values occurring at \(x\), in the sense of Chapter 5. The
+structural violation density is
+\[
+\nu(x)
+=
+\tfrac12\,\mathcal C(x)^2
+\ge 0,
+\]
+matching the quadratic form of the violation functional of Chapter 18
+applied pointwise.
+\end{definition}
+
+By construction, \(\nu(x)=0\) precisely when the local field configuration
+satisfies every admissibility condition at \(x\). Violation therefore
+becomes a geometric density distributed throughout the plenum rather than a
+single number assigned to an entire field configuration.
+
+\begin{definition}[Repair Density]
+Let \(\rho_R(x)\ge 0\) measure the instantaneous repair activity occurring
+at \(x\), constructed from the local repair functional \(\mathcal R(x)\) of
+Chapter 6 in the same pointwise sense.
+\end{definition}
+
+Unlike dissipation in conventional theories, repair is directed: its purpose
+is specifically to decrease structural violation. Repair therefore
+contributes positively to admissible continuation even when energetic
+expenditure is required, consistent with the repair energy of Chapter 22.
+
+\subsection*{Recovering the Global Quantities of Part I}
+
+The finite-dimensional violation functional of Chapters 5 and 18, and the
+accumulated repair energy of Chapter 22, are recovered as the spacetime
+integrals of these local densities:
+
+\[
+\boxed{
+V_{\mathrm{tot}}
+=
+\int_M \nu(x)\,d^4x,
+\qquad
+R_{\mathrm{tot}}
+=
+\int_M \rho_R(x)\,d^4x.
+}
+\]
+
+This is the precise sense in which the global, state-space quantities of
+Part I and Part II specialize to field theory: \(\nu\) and \(\rho_R\) are
+the local densities whose integrals reproduce the total violation and total
+repair effort discussed abstractly in earlier chapters. Only the local
+densities \(\nu(x)\) and \(\rho_R(x)\), never the integrated totals, may
+appear inside the Lagrangian density itself, since \(\mathcal L\) is by
+locality a pointwise quantity.
+
