@@ -19036,3 +19036,35 @@ RSVP generated every later framework. Rather, RSVP provided the continuous
 physical field realization of principles that were also being developed
 independently in computation, cognition, and semantics.
 
+\section{The Computational Branch: Flow Computing and Spherepop}
+
+The computational branch began from dissatisfaction with state-based
+accounts of computation.
+
+Ordinary operational semantics often treats a program as a sequence of
+transformations between recoverable machine states. Yet many computations
+are irreversible, history-dependent, destructive, or commitment-bearing. An
+exception may discard a continuation. A parser may commit to an
+interpretation. A garbage collector may erase unreachable structure. An
+input event may permanently change the future behavior of a system.
+
+Flow Computing developed the broader claim that computation should be
+understood through directed transformation, constraint, and continuation
+rather than only through stored state.
+
+Spherepop supplied the discrete event semantics for this view. Its
+primitive operations---formation, popping, refusal, binding, collapse, and
+residue---describe processes in which histories matter and not every
+transition can be reversed.
+
+Spherepop therefore became the computational counterpart of RSVP. RSVP
+describes continuous fields of capacity, flow, and constraint; Spherepop
+describes discrete events of production, refusal, binding, and collapse.
+The project architecture explicitly treats the two as related through a
+mapping from Spherepop processes into RSVP field dynamics.
+
+Refusal became especially important. A computational system must be able
+not only to perform valid transformations but to preserve its boundary by
+rejecting inadmissible ones. Refusal is therefore not a failed action. It is
+an identity-preserving operation.
+
