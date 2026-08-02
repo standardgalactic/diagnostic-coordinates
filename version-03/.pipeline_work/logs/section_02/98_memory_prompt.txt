@@ -1,0 +1,134 @@
+Update the project memory to incorporate this newly finished
+section. Merge in new definitions, new established claims, and
+new open questions. Keep existing entries unless this section
+explicitly supersedes them. Keep it compact — this file is read
+in full by every future prompt, so prune anything no longer
+useful rather than letting it grow without bound.
+
+Return only the full updated memory.md content, same three-section
+format (Definitions / Established Claims / Open Questions).
+
+Current memory:
+# Project Memory
+
+## Definitions
+- **Structural Semantics**: A framework interpreting language through synta[5D[K
+syntactic and semantic structures.
+- **Object-Based Ontology**: An approach treating linguistic elements as im[2D[K
+immutable objects within a static network, focusing on intrinsic properties[10D[K
+properties and relationships (e.g., syntactic trees, semantic roles).
+- **Process-Based Ontology**: A perspective viewing language production and[3D[K
+and comprehension as fluid processes where meaning emerges through temporal[8D[K
+temporal interactions and transformations (e.g., discourse events, pragmati[8D[K
+pragmatic inferences).
+- **Admissibility Criteria**: Determinants that guide the feasibility of re[2D[K
+repair operations within linguistic structures.
+- **Geometry of Repair**: A spatial metaphor visualizing repair mechanisms [K
+as vector adjustments (object-based) or topological transformations (proces[7D[K
+(process-based).
+
+## Established Claims
+1. Structural semantics provides a robust framework for analyzing language [K
+through its structural components.
+2. Object-based ontologies prioritize stable, referentially integrated enti[4D[K
+entities within discourse.
+3. Process-based ontologies emphasize dynamic, interactionally aligned proc[4D[K
+processes sustaining meaning continuity.
+4. Admissibility criteria are essential in evaluating the feasibility of re[2D[K
+repairs across both object-based and process-based frameworks.
+5. The geometry of repair can be conceptualized as vector adjustments for o[1D[K
+object networks or topological transformations for discourse processes.
+6. A unified model reconciling object-based stability with process-based dy[2D[K
+dynamism enhances understanding of discourse coherence.
+
+## Open Questions
+1. How can empirical validations of the geometric repair model be conducted[9D[K
+conducted across diverse multilingual and multimodal contexts?
+2. What specific metrics can quantify spatial proximity and topological con[3D[K
+continuity in real-time discourse analysis?
+3. Are there inherent limitations to reconciling object-based and process-b[9D[K
+process-based ontologies within a single geometric framework?
+4. How do individual differences in language proficiency influence the admi[4D[K
+admissibility of repair operations according to this model?
+5. Can the geometry of repair be extended to non-linguistic communication m[1D[K
+modalities (e.g., gestures, sign languages)?
+
+Newly finished section:
+# 1. Failure of Object Ontology
+
+## Objects as Compressed Histories
+In linguistic analysis, conceptualizing language elements as immutable obje[4D[K
+objects encapsulates their essence within a static network, emphasizing int[3D[K
+intrinsic properties and relationships such as those found in syntactic tre[3D[K
+trees or semantic roles. This **object-based ontology** posits that identit[7D[K
+identity is preserved through continuous support rather than being inherent[8D[K
+inherently granted. However, this perspective encounters significant limita[6D[K
+limitations when applied to the fluid nature of language use.
+
+Biological entities offer a compelling analogy: cells maintain their identi[6D[K
+identity through ongoing metabolic processes and environmental interactions[12D[K
+interactions, which are inherently dynamic rather than static. Similarly, i[1D[K
+in computational systems, data structures retain integrity only as long as [K
+they are actively managed within a program's runtime environment. Consequen[9D[K
+Consequently, objects function as *compressed histories*—they summarize pas[3D[K
+past states but require continual reinforcement to remain distinct.
+
+The metaphor of "compressed histories" precisely captures the essence of ob[2D[K
+objects retaining a distilled representation of prior states while necessit[8D[K
+necessitating ongoing validation to sustain their identity. This dynamic re[2D[K
+requirement is crucial for understanding why object-based ontologies falter[6D[K
+falter in capturing the persistent nature of linguistic elements across evo[3D[K
+evolving contexts.
+
+## Static Descriptions Versus Dynamic Maintenance
+The object ontology struggles to account for the persistence of linguistic [K
+elements as an active process rather than a passive attribute. In discourse[9D[K
+discourse analysis, words or phrases do not exist in isolation; their meani[5D[K
+meanings are perpetuated through successive contextual engagements.
+
+**Examples from biology and computation further illustrate this point:**
+
+- **Biological Example:** Cellular proteins maintain functional identities [K
+through cycles of synthesis, folding, and degradation within the cellular m[1D[K
+milieu. A protein's role is intrinsically tied to its dynamic interactions [K
+rather than solely its structural form. Interruptions in these processes—su[12D[K
+processes—such as mutations or environmental stress—can destabilize identit[7D[K
+identity despite an unchanged molecular blueprint.
+
+- **Computational Example:** In software engineering, data objects are inst[4D[K
+instantiated with specific attributes yet require continual memory allocati[8D[K
+allocation and garbage collection to preserve their utility. Without these [K
+dynamic maintenance mechanisms, objects would become obsolete, losing funct[5D[K
+functionality within a program's operational framework.
+
+These examples underscore that *persistence is fundamentally an active proc[4D[K
+process* rather than an inherent property of static descriptions. Consequen[9D[K
+Consequently, relying solely on object-based ontologies fails to capture th[2D[K
+the nuanced, ongoing negotiations necessary for maintaining meaning in disc[4D[K
+discourse—a limitation addressed by integrating process-oriented perspectiv[10D[K
+perspectives.
+
+### Transition to Process-Based Ontology
+Recognizing the inadequacies of object-based approaches prompts a shift tow[3D[K
+toward **process-based ontologies**, which foreground dynamic interactions [K
+as the primary drivers of linguistic continuity. By emphasizing the fluidit[7D[K
+fluidity and interactivity inherent in language production and comprehensio[12D[K
+comprehension, process-based ontologies offer more comprehensive accounts o[1D[K
+of repair mechanisms within discourse, aligning with the geometry of repair[6D[K
+repair metaphor introduced earlier.
+
+The subsequent section will explore how these frameworks provide a robust a[1D[K
+alternative to object-based models, detailing their capacity to accommodate[11D[K
+accommodate the dynamic nature of meaning construction and repair across di[2D[K
+diverse linguistic contexts. This transition not only addresses the limitat[7D[K
+limitations highlighted in this section but also sets the stage for a deepe[5D[K
+deeper investigation into the interplay between admissibility criteria and [K
+the geometry of repair within process-based ontologies.
+
+*Note: The formal academic style and consistency with project memory are ma[2D[K
+maintained throughout.*
+
+---
+
+**Word count for this section: ~450 words (target approximately 900 words a[1D[K
+across entire section).**
