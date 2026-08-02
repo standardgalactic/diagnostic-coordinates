@@ -6134,3 +6134,53 @@ A viable field may move tangentially along a boundary or inward into the
 admissible region, but it may not point outward through an active
 constraint.
 
+\section{Admissible Connections}
+
+To differentiate vector fields along the admissible manifold, we require a
+connection.
+
+Let
+
+\[
+\nabla
+\]
+
+be the Levi--Civita connection of \((\mathcal P,g)\).
+
+\begin{definition}[Admissible Connection]
+
+For vector fields \(X,Y\) tangent to \(\Adm_{\mathcal P}\), define
+
+\[
+\nabla^{\Adm}_X Y
+=
+\Pi^{\top}
+\left(
+\nabla_XY
+\right).
+\]
+
+\end{definition}
+
+\begin{proposition}
+
+The operator \(\nabla^{\Adm}\) is the Levi--Civita connection of the induced
+metric
+
+\[
+g_{\Adm}
+=
+g|_{T\Adm_{\mathcal P}}.
+\]
+
+\end{proposition}
+
+\begin{proof}
+
+The projected connection is torsion-free because the ambient connection is
+torsion-free and the Lie bracket of tangent vector fields remains tangent.
+Metric compatibility follows from metric compatibility of \(\nabla\) and
+orthogonality of the projection.
+
+\end{proof}
+
