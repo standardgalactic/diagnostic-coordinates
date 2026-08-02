@@ -13046,3 +13046,20 @@ constraints of the subsequent stage.
 
 Compilation becomes a sequence of admissibility-preserving transformations.
 
+\section{Exceptions}
+
+Unexpected events occur during computation.
+
+Division by zero, invalid memory, network failure, resource exhaustion, and
+malformed input all represent departures from expected continuation.
+
+Exception handling should therefore be interpreted as repair.
+
+Rather than terminating immediately, the computation attempts to construct
+an alternative admissible continuation.
+
+Successful recovery preserves organizational identity despite local
+failure.
+
+Uncaught exceptions correspond to exhaustion of available repair paths.
+
