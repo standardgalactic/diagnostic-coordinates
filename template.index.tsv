@@ -1,0 +1,815 @@
+1	chapter	A Note on This Draft	128
+2	part	Foundations of Organization	141
+3	chapter	Introduction	143
+4	section	Why Another Theory?	145
+5	section	The Repository as Research Record	196
+6	section	From Language to Physics	228
+7	section	A Shift in Perspective	265
+8	section	The RSVP Program	289
+9	section	How to Read This Book	320
+10	chapter	Two Lines of Evidence: Language and Biology	349
+11	section	The Unexpected Starting Point	351
+12	section	Against Isolated Symbols	382
+13	section	Against Isolated Neurons	410
+14	section	Meaning as Constraint	435
+15	section	Prediction as Constraint	454
+16	section	Distinction Before Representation	481
+17	subsection	Definition: Diagnostic Boundary	507
+18	definition		512
+19	section	Structural Semantics	539
+20	section	Hierarchical Organization	554
+21	section	Toward Information	576
+22	chapter	Information, Entropy, and the Persistence of Distinction	602
+23	section	From Meaning to Information	604
+24	section	Distinction as the Primitive Quantity	644
+25	section	Entropy as the Cost of Maintaining Difference	672
+26	section	Compression and Scientific Explanation	702
+27	section	Information Requires Physical Support	732
+28	section	The Failure of Static Ontologies	757
+29	section	Toward Dynamic Structure	789
+30	section	The Need for Geometry	813
+31	chapter	Geometry Before Representation	845
+32	section	A Change in Mathematical Priority	847
+33	section	Coordinates Are Not Geometry	873
+34	section	Topology Before Measurement	910
+35	section	Constraint as Geometry	937
+36	section	Representation as Projection	962
+37	section	From Objects to Trajectories	990
+38	section	Fields Rather Than Containers	1024
+39	section	The Geometry of Possibility	1056
+40	section	Toward Admissibility	1079
+41	chapter	Admissibility: The Mathematics of Persistence	1106
+42	section	From Geometry to Evolution	1108
+43	section	The Informal Idea	1143
+44	section	Admissible Evolution	1180
+45	definition		1241
+46	section	Admissible Trajectories	1267
+47	definition		1273
+48	section	Violation	1308
+49	section	Persistence Rather Than Perfection	1356
+50	section	Universality	1378
+51	section	A Principle of Organization	1401
+52	section	Hierarchical Admissibility	1425
+53	theorem		1439
+54	section	Looking Forward	1461
+55	chapter	Repair: Dynamics Beyond Evolution	1484
+56	section	Why Dynamics Alone Are Insufficient	1486
+57	section	Failure is Informative	1530
+58	section	Repair Operators	1561
+59	definition		1585
+60	section	Examples Across Disciplines	1615
+61	section	Composition of Repairs	1640
+62	section	Local and Global Repair	1678
+63	section	Repair Generates Identity	1704
+64	section	Repair and Time	1731
+65	section	Repair Before Optimization	1752
+66	section	Toward Continuation	1784
+67	chapter	Continuation: Identity Through Time	1801
+68	section	The Problem of Persistence	1803
+69	section	Identity is Not Material Sameness	1831
+70	section	Continuation as a Primitive Concept	1862
+71	definition		1872
+72	section	Trajectories Replace Snapshots	1909
+73	section	The Continuation Relation	1936
+74	section	Memory as Structural Continuation	1975
+75	section	The Continuity of Function	2000
+76	section	Continuation Across Scales	2022
+77	section	The Arrow of Organization	2045
+78	section	Toward Field Ontology	2065
+79	chapter	From Continuation to Plenum	2096
+80	section	A Change of Ontology	2098
+81	section	Why Not Begin With Particles?	2126
+82	section	The Meaning of Plenum	2150
+83	section	Scalar and Vector Structure	2176
+84	section	Relativity as a Structural Constraint	2205
+85	section	Objects Become Stable Trajectories	2226
+86	section	Diagnostic Coordinates	2250
+87	section	Field Dynamics Before Objects	2278
+88	section	The Road Ahead	2315
+89	chapter	The Geometry of the Plenum	2344
+90	section	The Plenum as Configuration Space	2346
+91	section	The Configuration Manifold	2367
+92	section	Neighborhoods of Continuation	2408
+93	section	Boundaries	2425
+94	section	Curvature as Organizational Response	2449
+95	section	Localized Stability	2469
+96	section	Field Repair	2507
+97	section	Observers	2529
+98	section	Emergence of Physical Law	2568
+99	section	Toward Dynamics	2587
+100	chapter	Dynamics of the Scalar--Vector Plenum	2605
+101	section	From Configuration to Evolution	2607
+102	section	The State of the Plenum	2626
+103	section	Evolution Operator	2673
+104	section	The Principle of Minimum Structural Violation	2708
+105	section	Structural Tension	2740
+106	section	Propagation	2767
+107	section	Emergent Objects	2792
+108	section	Scale Independence	2822
+109	section	Toward Conservation	2845
+110	chapter	Symmetry, Invariance, and Conservation	2874
+111	section	Why Symmetry Matters	2876
+112	section	Invariance Before Conservation	2902
+113	definition		2917
+114	section	Symmetry as Indifference	2946
+115	section	The Geometry of Symmetry	2971
+116	section	Conservation as Persistent Structure	3010
+117	section	Broken Symmetry	3044
+118	section	Hierarchy of Invariants	3070
+119	section	Conservation Beyond Physics	3091
+120	section	Toward the Action Principle	3115
+121	chapter	The Variational Principle of Admissibility	3140
+122	section	The Role of Variational Principles	3142
+123	section	Beyond Least Action	3167
+124	section	The Admissibility Functional	3197
+125	section	Admissible Evolution	3244
+126	section	A Schematic Decomposition	3268
+127	section	Repair Within the Action	3325
+128	section	Recovering Classical Physics	3348
+129	section	Extremals and Persistence	3384
+130	section	Open Mathematical Questions	3410
+131	section	Toward Diagnostic Coordinates	3437
+132	chapter	Deriving the RSVP Lagrangian	3452
+133	section	Why a Lagrangian Formulation?	3454
+134	section	Physical Principles: Locality, Covariance, and Admissibility	3483
+135	subsection	Locality	3485
+136	subsection	Lorentz Covariance	3527
+137	subsection	Admissibility	3604
+138	section	Local Violation and Repair Densities	3618
+139	definition		3632
+140	definition		3652
+141	subsection	Recovering the Global Quantities of Part I	3663
+142	section	General Form of the RSVP Action	3689
+143	subsection	Recovering Existing Physics	3745
+144	section	Primitive Variables	3775
+145	section	Scalar and Vector Sector Construction	3818
+146	subsection	The Scalar Sector	3825
+147	subsection	The Vector Sector	3856
+148	subsection	Scalar--Vector Coupling	3889
+149	subsection	Admissibility	3917
+150	subsection	Repair	3951
+151	subsection	The Complete RSVP Action	3986
+152	section	Looking Forward	4049
+153	chapter	Euler--Lagrange Equations for the RSVP Action	4065
+154	section	Stationarity of the Action	4067
+155	section	Variation with Respect to the Scalar Field	4090
+156	section	Variation with Respect to the Vector Field	4139
+157	section	Interpretation	4172
+158	section	The Admissible Limit	4192
+159	section	Violation Dynamics	4232
+160	section	Well-Posedness	4256
+161	section	Toward the Stress--Energy Tensor	4270
+162	chapter	The Stress--Energy Tensor and Organizational Currents	4287
+163	section	The Physical Meaning of Energy	4289
+164	section	Variation with Respect to the Metric	4310
+165	section	Sector Decomposition	4350
+166	section	The Scalar Contribution	4388
+167	section	The Vector Contribution	4409
+168	section	Organizational Contributions	4433
+169	section	Conservation	4468
+170	section	Organizational Current	4488
+171	section	Observable Consequences	4542
+172	section	Toward Gravitation	4559
+173	chapter	The Gravitational Limit	4578
+174	section	The Question of Gravitation	4580
+175	section	Geometry Revisited	4606
+176	section	Effective Geometry	4627
+177	section	Organizational Sources	4649
+178	section	The Einstein Limit	4700
+179	section	Curvature as Organizational Response	4731
+180	section	Singularities	4746
+181	section	Cosmological Organization	4770
+182	section	Predictions and Constraints	4785
+183	section	Toward Quantum Organization	4809
+184	chapter	Quantum Organization	4823
+185	section	The Quantum Problem	4825
+186	section	The Ontological Question	4847
+187	section	Superposition	4880
+188	section	Measurement	4901
+189	section	Probability	4925
+190	section	Entanglement	4943
+191	section	Decoherence	4962
+192	section	Classical Emergence	4980
+193	section	Open Problems	4995
+194	section	Toward a Unified Organizational Physics	5016
+195	part	Mathematical Structure	5038
+196	chapter	A Note on Part II	5040
+197	chapter	Differential Geometry of Admissible Manifolds	5054
+198	section	Scope and Mathematical Setting	5056
+199	section	Constraint Maps	5092
+200	definition		5117
+201	section	The Admissible Manifold	5145
+202	definition		5147
+203	theorem		5165
+204	proof		5192
+205	section	Inequality Constraints and Admissible Regions	5207
+206	section	Admissible Tangent Vectors	5247
+207	definition		5252
+208	proposition		5276
+209	proof		5296
+210	section	The Admissible Distribution	5327
+211	definition		5331
+212	proposition		5351
+213	proof		5360
+214	section	Admissible Vector Fields	5377
+215	definition		5379
+216	theorem		5405
+217	proof		5424
+218	section	Projected Dynamics	5445
+219	definition		5485
+220	proposition		5498
+221	proof		5505
+222	section	Explicit Projection Formula	5519
+223	section	Violation Functionals	5581
+224	definition		5587
+225	section	Repair as Gradient Flow	5633
+226	definition		5638
+227	proposition		5658
+228	proof		5674
+229	corollary		5717
+230	proof		5724
+231	section	Local Convergence of Repair	5750
+232	theorem		5755
+233	proof		5792
+234	section	The Tubular Repair Map	5867
+235	theorem		5872
+236	definition		5900
+237	proposition		5922
+238	proof		5934
+239	section	Evolution and Repair	5951
+240	proposition		5994
+241	proof		6009
+242	corollary		6055
+243	section	Viability at Inequality Boundaries	6074
+244	definition		6103
+245	definition		6119
+246	section	Admissible Connections	6137
+247	definition		6150
+248	proposition		6165
+249	proof		6178
+250	section	Admissible Geodesics	6187
+251	definition		6189
+252	section	Constrained Variational Principle	6222
+253	section	Extrinsic Geometry	6287
+254	definition		6299
+255	definition		6328
+256	section	The Gauss Equation	6353
+257	section	Local Existence of Admissible Continuation	6394
+258	theorem		6398
+259	proof		6443
+260	section	Global Continuation Under Completeness	6454
+261	theorem		6456
+262	proof		6478
+263	section	Hierarchical Admissibility as a Fibered Construction	6488
+264	theorem		6524
+265	proof		6555
+266	section	Field-Theoretic Extension	6612
+267	section	Summary of the Mathematical Structure	6712
+268	chapter	Topology of Repair	6784
+269	section	Introduction	6786
+270	section	Repair Spaces	6809
+271	section	Repair Paths	6843
+272	definition		6845
+273	section	Repair Homotopy	6897
+274	definition		6902
+275	section	Repair Classes	6943
+276	definition		6945
+277	section	Continuation Classes	6976
+278	definition		6982
+279	section	The Repair Index	7005
+280	definition		7017
+281	section	Obstructions	7058
+282	definition		7062
+283	section	Relative Homotopy	7076
+284	section	Repair as Deformation Retraction	7102
+285	definition		7112
+286	section	Fundamental Repair Theorem	7157
+287	theorem		7161
+288	proof		7195
+289	section	Topological Defects	7207
+290	section	Continuation Through Surgery	7232
+291	definition		7240
+292	section	Persistence Under Repair	7255
+293	chapter	Category Theory of Organization	7290
+294	section	Why Category Theory?	7292
+295	section	The Organizational Category	7319
+296	definition		7323
+297	section	Identity Morphisms	7374
+298	proposition		7378
+299	proof		7396
+300	section	Composition	7414
+301	theorem		7448
+302	proof		7462
+303	section	Repair Morphisms	7496
+304	definition		7500
+305	section	Idempotence	7537
+306	theorem		7541
+307	proof		7551
+308	section	Continuation Morphisms	7573
+309	definition		7579
+310	section	The Continuation Groupoid	7597
+311	definition		7603
+312	section	Forgetful Functors	7624
+313	section	Repair Functors	7661
+314	definition		7665
+315	section	Natural Transformations	7701
+316	section	Limits and Composite Systems	7735
+317	section	Colimits and Integration	7766
+318	section	Sheaves of Organization	7785
+319	definition		7821
+320	section	The Organizational Yoneda Principle	7839
+321	section	The Fundamental Category of Organization	7863
+322	chapter	Information Geometry	7903
+323	section	From Information to Geometry	7905
+324	section	The Statistical Manifold	7924
+325	section	The Fisher Metric	7958
+326	section	Diagnostic Coordinates	7988
+327	definition		7992
+328	section	Information Distance	8010
+329	section	Entropy as Curvature	8029
+330	section	Bayesian Repair	8047
+331	section	The Repair Metric	8078
+332	definition		8084
+333	section	Dual Geometry	8106
+334	section	Hierarchical Information	8123
+335	section	The Information Bundle	8144
+336	section	Geodesics of Learning	8166
+337	section	The Information Curvature Theorem	8188
+338	theorem		8192
+339	section	Toward Variational Repair	8213
+340	chapter	Variational Repair Theory	8230
+341	section	From Dynamics to Repair	8232
+342	section	The Repair Functional	8251
+343	section	Structure of the Repair Lagrangian	8293
+344	section	Stationary Repair	8333
+345	section	Gradient Repair	8370
+346	section	Generalized Repair Flow	8405
+347	section	Lyapunov Stability	8432
+348	theorem		8436
+349	proof		8483
+350	section	Repair Energy	8525
+351	section	Optimal Repair	8561
+352	section	Hierarchical Repair	8589
+353	section	Constraints and Repair	8629
+354	section	Repair Bifurcations	8671
+355	section	The Principle of Least Organizational Repair	8698
+356	section	Toward Stability Theory	8719
+357	chapter	Stability Theory	8732
+358	section	Introduction	8734
+359	section	Dynamical Systems on the Admissible Manifold	8762
+360	section	Structural Equilibria	8821
+361	definition		8831
+362	example		8857
+363	section	Structural Attractors	8863
+364	definition		8869
+365	section	The Stable Region \texorpdfstring{$\Omega$	8899
+366	section	Limit Cycles	8951
+367	definition		8957
+368	section	Organizational Bifurcations	8975
+369	section	Catastrophe Theory	9010
+370	section	Organizational Curvature and Stability	9027
+371	section	Lyapunov Stability Revisited	9050
+372	theorem		9081
+373	proof		9087
+374	section	Stability Hierarchy	9094
+375	section	The Fundamental Continuation Theorem	9111
+376	theorem		9118
+377	proof		9134
+378	section	Discussion	9142
+379	part	Physical Applications	9163
+380	chapter	A Note on Part III	9165
+381	chapter	Classical Mechanics as a Limiting Case	9170
+382	section	Introduction	9172
+383	section	The Admissible Limit	9199
+384	section	Localized Structures	9236
+385	section	Effective Mass	9291
+386	section	Emergence of Newton's Second Law	9330
+387	section	Potential Energy	9383
+388	section	Conservation Laws	9436
+389	section	Small Oscillations	9452
+390	section	Many-Body Systems	9495
+391	section	Recovering Classical Mechanics	9530
+392	chapter	Electromagnetism	9558
+393	section	Introduction	9560
+394	section	The Vector Sector	9580
+395	section	Variational Derivation	9627
+396	section	Inclusion of Sources	9694
+397	section	Gauge Symmetry	9743
+398	section	Energy and Momentum	9785
+399	section	Admissibility Corrections	9810
+400	section	Electromagnetic Repair	9884
+401	section	Possible Observational Consequences	9909
+402	section	Discussion	9938
+403	chapter	General Relativity	9960
+404	section	Introduction	9962
+405	section	The Gravitational Sector	9988
+406	section	Variation of the Metric	10037
+407	section	Recovering Einstein's Equations	10107
+408	section	Interpretation of the Organizational Tensor	10146
+409	section	Conservation Laws	10182
+410	section	Weak-Field Limit	10216
+411	section	Black Holes	10268
+412	section	Gravitational Waves	10307
+413	section	Cosmological Constant	10329
+414	section	Candidate Observational Signatures	10358
+415	section	Discussion	10382
+416	chapter	Quantum Field Theory	10409
+417	section	Introduction	10411
+418	section	The Classical Starting Point	10432
+419	section	Configuration Space	10468
+420	section	Linearization Near Equilibrium	10500
+421	section	Quantization as Organizational Modes	10555
+422	section	Hilbert Space	10586
+423	section	Unitary Evolution	10618
+424	section	Measurement	10669
+425	section	Entanglement	10691
+426	section	Vacuum Structure	10713
+427	section	Open Problems	10730
+428	section	Discussion	10750
+429	chapter	Cosmology	10772
+430	section	Introduction	10774
+431	section	Cosmological Symmetry	10796
+432	section	Cosmological Field Equations	10834
+433	section	Inflation	10902
+434	section	Dark Matter	10942
+435	section	Dark Energy	10971
+436	section	Cosmological Horizons	11001
+437	section	Structure Formation	11018
+438	section	The Arrow of Cosmological Time	11035
+439	section	The Early Universe	11056
+440	section	Observational Consequences	11073
+441	section	Discussion	11095
+442	chapter	Condensed Matter	11120
+443	section	Introduction	11122
+444	section	Organization Rather Than Constituents	11144
+445	section	Crystalline Organization	11162
+446	section	Defects	11194
+447	section	Elasticity	11215
+448	section	Superconductivity	11239
+449	section	Topological Phases	11261
+450	section	Quasicrystals	11282
+451	section	Organizational Topology	11306
+452	section	Phase Transitions	11322
+453	section	Nonequilibrium Materials	11338
+454	section	Experimental Consequences	11360
+455	section	Discussion	11375
+456	chapter	Thermodynamics	11396
+457	section	Introduction	11398
+458	section	Energy and Organization	11423
+459	section	Entropy	11486
+460	section	The Second Law	11518
+461	theorem		11542
+462	proof		11556
+463	section	Equilibrium	11564
+464	section	Nonequilibrium Systems	11592
+465	section	Irreversibility	11613
+466	section	Information	11631
+467	section	Biological Thermodynamics	11652
+468	section	Maximum Entropy and Admissibility	11675
+469	section	The Arrow of Time	11694
+470	section	Discussion	11714
+471	part	Organization Beyond Physics	11742
+472	chapter	Outline of Part IV	11744
+473	chapter	Biological Organization	11753
+474	section	Introduction	11755
+475	section	Living Systems as Continuing Organization	11775
+476	section	Homeostasis	11808
+477	section	Physiological Regulation	11846
+478	section	Development	11867
+479	section	Evolution	11884
+480	section	The Immune System	11903
+481	section	Memory in Biological Systems	11935
+482	section	Aging	11949
+483	section	Disease	11969
+484	section	Hierarchical Repair	11986
+485	section	Discussion	12009
+486	chapter	Cognition	12030
+487	section	Introduction	12032
+488	section	The Cognitive System as an Admissible Dynamical System	12066
+489	section	Internal Models	12120
+490	section	Predictive Processing	12157
+491	section	The Diagnostic Boundary	12199
+492	section	Attention	12237
+493	section	Memory	12271
+494	section	Learning	12295
+495	section	Concept Formation	12330
+496	section	Action	12355
+497	section	Consciousness	12384
+498	section	Predictive Failure	12403
+499	section	Comparison with Existing Frameworks	12432
+500	section	Discussion	12453
+501	chapter	Artificial Intelligence	12483
+502	section	Introduction	12485
+503	section	Learning as Organizational Construction	12513
+504	section	Latent Spaces	12558
+505	section	Embeddings	12583
+506	section	Transformers	12605
+507	section	Attention	12628
+508	section	Prediction	12658
+509	section	Hallucination	12678
+510	section	Distribution Shift	12699
+511	section	External Memory	12723
+512	section	Reasoning	12739
+513	section	Alignment	12756
+514	section	Recursive Self-Improvement	12792
+515	section	Artificial General Intelligence	12810
+516	section	Comparison with Existing Machine Learning Theory	12823
+517	section	Discussion	12847
+518	chapter	Computation	12869
+519	section	Introduction	12871
+520	section	Programs as Organizational Processes	12899
+521	section	Computational Admissibility	12931
+522	section	Programming Languages	12957
+523	section	Type Systems	12976
+524	section	Ownership and Borrowing	13011
+525	section	Compilation	13030
+526	section	Exceptions	13049
+527	section	Refusal	13066
+528	section	Garbage Collection	13084
+529	section	Operating Systems	13102
+530	section	Concurrency	13122
+531	section	Distributed Systems	13138
+532	section	Flow Computing	13156
+533	section	Spherepop	13173
+534	section	Verification	13196
+535	section	Discussion	13222
+536	chapter	Economic Organization	13250
+537	section	Introduction	13252
+538	section	Economic Systems as Organizational Networks	13285
+539	section	Preference as Reachability	13362
+540	section	Markets	13398
+541	section	Production	13415
+542	section	Institutions	13431
+543	section	Money	13449
+544	section	Fiscal Reachability	13467
+545	section	Economic Crises	13505
+546	section	Innovation	13521
+547	section	Global Economic Organization	13536
+548	section	Comparison with Economic Theory	13554
+549	section	Discussion	13574
+550	chapter	Social Systems	13598
+551	section	Introduction	13600
+552	section	Society as Organizational Continuation	13638
+553	section	Communication	13718
+554	section	Language	13737
+555	section	Culture	13757
+556	section	Norms	13775
+557	section	Institutions	13791
+558	section	Science	13807
+559	section	Technology	13829
+560	section	Conflict	13853
+561	section	Civilizations	13867
+562	section	Digital Society	13884
+563	section	Ethics	13902
+564	section	The Ecology of Distinctions	13918
+565	section	Discussion	13943
+566	part	Philosophy and Future Work	13981
+567	chapter	Ontology	13983
+568	section	Introduction	13985
+569	section	From Substance to Continuation	14015
+570	section	Objects as Organizational Trajectories	14047
+571	section	Repair as an Ontological Criterion	14089
+572	section	Admissibility and Existence	14111
+573	section	Identity Through Replacement	14129
+574	section	Structural Realism	14168
+575	section	Process Philosophy	14193
+576	section	Reachability Ontology	14221
+577	section	Distinction Before Representation	14248
+578	section	The Ontology of Boundaries	14274
+579	section	Persistence	14295
+580	section	Discussion	14315
+581	chapter	Epistemology	14347
+582	section	Introduction	14349
+583	section	Embedded Observation	14371
+584	section	Diagnostic Coordinates	14419
+585	section	The Diagnostic Boundary	14447
+586	section	Scientific Models	14485
+587	section	Recovering Classical Theories	14503
+588	section	Observation as Compression	14527
+589	section	Prediction	14560
+590	section	Bayesian Repair	14578
+591	section	The Limits of Knowledge	14606
+592	section	Objectivity	14624
+593	section	Measurement	14643
+594	section	Scientific Progress	14662
+595	section	Discussion	14678
+596	chapter	Comparison with Existing Frameworks	14703
+597	section	Introduction	14705
+598	section	Newtonian Mechanics	14730
+599	subsection	Status	14749
+600	section	General Relativity	14753
+601	subsection	Status	14782
+602	section	Quantum Theory	14787
+603	subsection	Status	14811
+604	section	Process Philosophy	14816
+605	subsection	Status	14838
+606	section	Structural Realism	14842
+607	subsection	Status	14861
+608	section	Predictive Processing and Active Inference	14865
+609	subsection	Status	14898
+610	section	Category Theory	14903
+611	subsection	Status	14936
+612	section	Systems Theory	14941
+613	subsection	Status	14957
+614	section	Scope of the Framework	14961
+615	section	Summary	14982
+616	chapter	Open Problems and Future Directions	15021
+617	section	Introduction	15023
+618	section	Mathematical Problems	15044
+619	section	The Fundamental Continuation Theorem	15055
+620	section	Internal Development of \texorpdfstring{$\mathbf{Adm	15075
+621	section	Variational Repair	15102
+622	section	Topology and Organizational Geometry	15116
+623	section	Physical Problems	15129
+624	section	Quantum Foundations	15136
+625	section	Cosmology	15150
+626	section	Observational Signatures	15174
+627	section	Organizational Problems	15189
+628	section	Consciousness	15196
+629	section	Artificial Intelligence	15212
+630	section	Economic Organization	15230
+631	section	Social Systems	15242
+632	section	Empirical Discipline	15253
+633	section	Falsifiability	15274
+634	section	The Future of the Research Program	15287
+635	section	Conclusion	15306
+636	chapter	Epilogue	15341
+637	chapter	A Note on the Appendices	15490
+638	appendix		15525
+639	chapter	Topological Foundations	15527
+640	section	Purpose	15529
+641	section	Configuration Space	15551
+642	section	Topological Structure	15576
+643	section	Admissible Region	15600
+644	section	Boundary	15624
+645	section	Continuation Paths	15653
+646	section	Connected Components	15671
+647	section	Compactness	15700
+648	proposition		15704
+649	proof		15709
+650	section	Closure	15717
+651	section	Interior	15734
+652	section	Neighborhoods	15751
+653	section	Organizational Distance	15774
+654	section	Homeomorphism	15802
+655	section	Topological Invariants	15822
+656	section	Organizational Holes	15835
+657	section	Organizational Curvature	15852
+658	section	Topological Stability	15865
+659	section	Discussion	15889
+660	chapter	Variational Formalism	15913
+661	section	Purpose	15915
+662	section	The Action Principle	15952
+663	section	Field Content	16005
+664	section	General Structure of the Lagrangian	16041
+665	section	Scalar Sector	16075
+666	section	Vector Sector	16112
+667	section	Entropy Sector	16146
+668	section	Interaction Terms	16173
+669	section	Repair Density	16205
+670	section	Organizational Violation	16244
+671	section	Euler--Lagrange Equations	16290
+672	section	Stress--Energy Tensor	16339
+673	section	Conservation Laws	16387
+674	section	Boundary Terms	16414
+675	section	Symmetries	16427
+676	section	The Admissible Limit	16440
+677	section	Discussion	16469
+678	chapter	Stability and Lyapunov Theory	16499
+679	section	Purpose	16501
+680	section	Organizational Dynamics	16530
+681	section	Equilibrium States	16564
+682	definition		16590
+683	section	Lyapunov Functions	16599
+684	definition		16613
+685	section	Repair Lyapunov Functions	16660
+686	section	Local Stability	16705
+687	definition		16707
+688	section	Asymptotic Stability	16720
+689	section	Organizational Attractors	16739
+690	section	Limit Cycles	16763
+691	section	Bifurcations	16799
+692	section	Catastrophe	16830
+693	section	Global Stability	16843
+694	section	Repair Basins	16858
+695	section	Termination	16885
+696	section	Stability Hierarchy	16910
+697	section	Toward the Fundamental Continuation Theorem	16922
+698	section	Discussion	16940
+699	chapter	Category Theory	16961
+700	section	Purpose	16963
+701	section	Objects	16991
+702	section	Morphisms	17014
+703	section	Identity Morphisms	17052
+704	proposition		17069
+705	section	Composition	17090
+706	section	Isomorphisms	17139
+707	section	Products	17188
+708	section	Coproducts	17235
+709	section	Terminal Objects	17254
+710	section	Initial Objects	17286
+711	section	Equalizers	17313
+712	section	Pullbacks	17339
+713	section	Pushouts	17360
+714	section	Functors	17369
+715	section	Natural Transformations	17391
+716	section	Limits and Colimits	17429
+717	section	Toward an Internal Theory	17441
+718	section	Discussion	17461
+719	chapter	Sheaf Theory	17489
+720	section	Purpose	17491
+721	section	Local Organization	17518
+722	section	Presheaves	17546
+723	section	Sections	17591
+724	section	Restriction	17614
+725	section	The Sheaf Axioms	17644
+726	section	Organizational Gluing	17657
+727	section	Failure of Gluing	17713
+728	section	Stalks	17725
+729	section	Morphisms of Sheaves	17753
+730	section	Sheaf Cohomology	17786
+731	section	Repair as Local Reconstruction	17803
+732	section	Distributed Systems	17823
+733	section	Diagnostic Coordinates	17837
+734	section	Field Theory	17851
+735	section	Toward a Sheaf of Admissibility	17867
+736	section	Discussion	17883
+737	chapter	Information Geometry	17911
+738	section	Purpose	17913
+739	section	The Organizational Manifold	17943
+740	section	Organizational Metrics	17965
+741	section	The Fisher Metric	17991
+742	section	Geodesics	18023
+743	section	Connection	18048
+744	section	Organizational Curvature	18064
+745	section	Information Flow	18088
+746	section	Repair Gradients	18120
+747	section	Entropy Geometry	18147
+748	section	Reachability Volume	18159
+749	section	Curvature and Repair	18185
+750	section	Information Singularities	18200
+751	section	Comparison with Classical Information Geometry	18212
+752	section	Toward Organizational Geometry	18227
+753	section	Discussion	18240
+754	chapter	Computational Semantics	18261
+755	section	Purpose	18263
+756	section	Computational States	18283
+757	section	Computational Admissibility	18304
+758	section	Organizational Events	18330
+759	section	Spherepop	18344
+760	section	Formation	18379
+761	section	Binding	18405
+762	section	Collapse	18438
+763	section	Refusal	18450
+764	section	Repair	18473
+765	section	Flow Computing	18499
+766	section	Ownership	18520
+767	section	Types	18533
+768	section	Continuation Semantics	18563
+769	section	Distributed Computation	18579
+770	section	Artificial Intelligence	18593
+771	section	Verification	18610
+772	section	Toward a Unified Computational Theory	18630
+773	section	Discussion	18651
+774	chapter	The Development of the Research Program	18681
+775	section	Purpose of This Appendix	18684
+776	section	Distinction Before Object	18731
+777	section	Information, Entropy, and Historical Compression	18763
+778	section	Recoverability and Memory	18793
+779	section	Repair as a Primitive Operation	18821
+780	section	Geometry of Failure	18854
+781	section	Reachability Ontology	18883
+782	section	Admissibility	18925
+783	section	Continuation	18962
+784	section	The Physical Branch: RSVP	19003
+785	section	The Computational Branch: Flow Computing and Spherepop	19039
+786	section	The Epistemic Branch: CLIO and Semantic Geometry	19071
+787	section	Cognition, Preference, and Active Inference	19110
+788	section	Collective Architectures: HYDRA and TARTAN	19137
+789	section	Economic and Institutional Reachability	19163
+790	section	The Ecology of Distinctions	19188
+791	section	Procedural Ontology and Recursive Continuation	19237
+792	section	Implementation as Conceptual Testing	19271
+793	section	Empirical Discipline	19312
+794	section	The Present Synthesis	19336
+795	section	Dependency Structure	19379
+796	section	Conclusion	19441
+797	chapter	Notation and Conventions	19480
+798	section	Purpose	19482
+799	section	General Conventions	19494
+800	section	Sets and Spaces	19529
+801	section	Principal Fields	19545
+802	section	Organization and Repair	19563
+803	section	Variational Quantities	19579
+804	section	Topology	19594
+805	section	Category Theory	19609
+806	section	Sheaf Theory	19626
+807	section	Information Geometry	19639
+808	section	Computation	19654
+809	section	Biology and Cognition	19670
+810	section	Economics and Society	19684
+811	section	Logical Symbols	19699
+812	section	Naming Conventions	19722
+813	section	Closing Remarks	19744
+814	chapter	Annotated Bibliography	19756
+815	section	Outline	19758

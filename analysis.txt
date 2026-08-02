@@ -1,0 +1,339 @@
+Repository Analysis
+===================
+
+Name          : diagnostic-coordinates
+Root          : /home/bonobo/diagnostic-coordinates
+Directories   : 12
+Files         : 179
+Total lines   : 210237
+Total size    : 81.19 MiB
+Deepest path  : 4 levels
+
+Git
+---
+Branch        : main
+Commits       : 1035
+Tracked files : 556
+Staged        : 0
+Modified      : 0
+Untracked     : 4
+Origin        : git@github.com:standardgalactic/diagnostic-coordinates.git
+Latest commit : d24405c 2026-08-02 Theory Development
+
+Project Fingerprint
+-------------------
+Primary language    : Unknown
+Documentation ratio : 30.8%
+Detected features   :
+  - Rust Cargo project
+  - Contains project documentation
+  - Contains LaTeX manuscripts
+  - Contains a tests directory
+
+Language Makeup
+---------------
+Language            Files        Lines         Size
+Unknown                75       137900    22.34 MiB
+LaTeX                   5        41887     1.00 MiB
+Text                   23        20219   831.56 KiB
+HTML                    6         2829   163.48 KiB
+Markdown                5         2593   169.61 KiB
+Shell                  11         2355    63.32 KiB
+Rust                    9         1846    58.17 KiB
+Python                  7          587    20.62 KiB
+CSS                     1           12        370 B
+TOML                    1            8        189 B
+JSON                    1            1   292.65 KiB
+PDF                     8            0     2.78 MiB
+Image                  22            0     7.63 MiB
+Audio                   5            0    45.87 MiB
+
+Top-Level Makeup
+----------------
+Directory                       Files        Lines         Size
+arcanum                           129       133469    70.84 MiB
+repo-analyzer                       1        12103     4.44 MiB
+infographic.png                     1            0     3.07 MiB
+rsvp-evolution.pdf                  1            0   723.25 KiB
+rsvp-evolution.tex                  1        19766   457.80 KiB
+template.tex                        1        19766   457.80 KiB
+publish-20260802-195308.log         1         8406   292.64 KiB
+rsvp-evolution.log                  1         3703   182.99 KiB
+rsvp-evolution.out                  1          697   112.71 KiB
+monograph.pdf                       1            0    95.11 KiB
+commit-20260802-174015.log          1         2011    90.76 KiB
+rsvp-evolution.aux                  1          839    89.81 KiB
+version-02                          4         1331    62.60 KiB
+rsvp-evolution.toc                  1          697    57.02 KiB
+version-03                          3         1256    55.74 KiB
+LICENSE                             1          675    34.33 KiB
+repo_analyzer.rs                    1         1153    30.48 KiB
+template.index.tsv                  1          815    29.22 KiB
+monograph.log                       1          626    25.98 KiB
+publish_sections.sh                 1          856    21.70 KiB
+file-list.txt                       1          369    16.99 KiB
+src                                 6          430    16.98 KiB
+monograph.tex                       1          105    14.94 KiB
+version-01                          3          420    14.68 KiB
+examples                            1          129     5.42 KiB
+tests                               1          134     5.29 KiB
+monotonic_commit.sh                 1          159     3.89 KiB
+make_index.sh                       1          161     2.64 KiB
+test_results.txt                    1           39     1.20 KiB
+monograph.out                       1            5        964 B
+run_tests.sh                        1           37        791 B
+monograph.aux                       1           10        789 B
+texput.log                          1           20        688 B
+commit-20260802-173640.log          1           22        643 B
+commit-20260802-173630.log          1           11        352 B
+README.md                           1            9        322 B
+Cargo.toml                          1            8        189 B
+analysis.txt                        1            0          0 B
+rsvp-evolution.idx                  1            0          0 B
+
+Largest Files
+-------------
+Size              Lines  Path
+22.38 MiB             0  arcanum/overview/The_Illusions_of_Reality.mp3
+12.37 MiB             0  arcanum/Architectural Layers of Reality.mp3
+5.49 MiB              0  arcanum/صرخة في الضباب version 2.mp3
+4.44 MiB          12103  repo-analyzer
+4.00 MiB              0  arcanum/fonts/Sga-Regular.svg
+3.07 MiB              0  infographic.png
+2.94 MiB              0  arcanum/arcanum-review.mp3
+2.69 MiB              0  arcanum/صرخة في الضباب.mp3
+1.93 MiB           9357  arcanum/fonts/Sga-Regular.ttf
+1.91 MiB           9392  arcanum/fonts/Sga-Regular.eot
+1.85 MiB           5146  arcanum/fonts/styled_fonts/NovaMonoStandardGalactic_outline.ttf
+1.38 MiB          11495  arcanum/Vowel Movements.mhtml
+998.21 KiB         3912  arcanum/fonts/styled_fonts/NovaMonoStandardGalactic_italic.ttf
+916.98 KiB         3566  arcanum/fonts/styled_fonts/NovaMonoStandardGalactic_expand.ttf
+907.86 KiB         3512  arcanum/fonts/styled_fonts/NovaMonoStandardGalactic_shadow.ttf
+
+LaTeX Structure
+---------------
+Parts          : 10
+Chapters       : 112
+Sections       : 1314
+Subsections    : 45
+Subsubsections : 0
+Definitions    : 117
+Theorems       : 40
+Lemmas         : 0
+Propositions   : 72
+Corollaries    : 8
+Proofs         : 56
+Examples       : 2
+Remarks        : 1
+Figures        : 3
+Tables         : 2
+Equation blocks: 1882
+Citation calls : 24
+
+Rust Structure
+--------------
+Functions        : 70
+Public functions : 15
+Structs          : 17
+Enums            : 6
+Traits           : 1
+Impl blocks      : 13
+Modules          : 5
+Tests            : 5
+Macros           : 0
+Unsafe uses      : 1
+
+Repository Tree (depth ≤ 5)
+---------------------------
+diagnostic-coordinates/
+  Cargo.toml
+  LICENSE
+  README.md
+  analysis.txt
+  arcanum/
+    A Cry in the Fog.mhtml
+    Architectural Layers of Reality.mp3
+    Architectural Layers of Reality.txt
+    LICENSE
+    Plenum Amplitudes.pdf
+    README.md
+    RSVP-introduction.html
+    RSVP-theory-introduction.html
+    RSVP-theory-introduction.txt
+    Vowel Movements.mhtml
+    abyssal.html
+    analyze-ngrams.py
+    arcanum
+    arcanum-glow.png
+    arcanum-review.mp3
+    extract-pdfs.py
+    fonts/
+      Amiri-Bold.ttf
+      Amiri-BoldItalic.ttf
+      Amiri-Italic.ttf
+      Amiri-Regular.ttf
+      Cheiro-Regular.eot
+      Cheiro-Regular.svg
+      Cheiro-Regular.ttf
+      Cheiro-Regular.woff
+      Cheiro-Regular.woff2
+      Clypto-Regular.eot
+      Clypto-Regular.svg
+      Clypto-Regular.ttf
+      Clypto-Regular.woff
+      Clypto-Regular.woff2
+      CursiveGalactic-Regular.g2n
+      CursiveGalactic-Regular.ttf
+      FONTLOG.txt
+      Lingojam_cipher-Regular.ttf
+      Logico_philosophicus-Regular.g2n
+      Logico_philosophicus-Regular.ttf
+      NovaMonoStandardGalactic.ttf
+      Sga-Regular.eot
+      Sga-Regular.g2n
+      Sga-Regular.svg
+      Sga-Regular.ttf
+      Sga-Regular.woff
+      Sga-Regular.woff2
+      Systada-Regular.eot
+      Systada-Regular.svg
+      Systada-Regular.ttf
+      Systada-Regular.woff
+      Systada-Regular.woff2
+      Systada.g2n
+      Systada.ttf
+      alterations/
+        bubble_font.ttf
+        bubble_font_preview.png
+        nova_mono_font.ttf
+        nova_mono_font_preview.png
+        sans_serif_font.ttf
+        sans_serif_font_preview.png
+        serif_font.ttf
+        serif_font_preview.png
+        swash_font.ttf
+        swash_font_preview.png
+      ascii_debug_out/
+        Cheiro-Regular_box_ascii.png
+        Cheiro-Regular_box_ascii.ttf
+        Cheiro-Regular_scale_ascii.png
+        Cheiro-Regular_scale_ascii.ttf
+        Cheiro-Regular_shift_ascii.png
+        Cheiro-Regular_shift_ascii.ttf
+        Clypto-Regular_box_ascii.png
+        Clypto-Regular_box_ascii.ttf
+        Clypto-Regular_scale_ascii.png
+        Clypto-Regular_scale_ascii.ttf
+        Clypto-Regular_shift_ascii.png
+        Clypto-Regular_shift_ascii.ttf
+        Systada-Regular_box_ascii.png
+        Systada-Regular_box_ascii.ttf
+        Systada-Regular_scale_ascii.png
+        Systada-Regular_scale_ascii.ttf
+        Systada-Regular_shift_ascii.png
+        Systada-Regular_shift_ascii.ttf
+        glyph-test.txt
+        robust_ascii.ttf
+        robust_ascii_preview.png
+      check-glyphs.py
+      dactyl.ttf
+      debug.py
+      demo.html
+      findings.txt
+      glyph-test.txt
+      shapeform.g2n
+      shapeform.ttf
+      styled_fonts/
+        NovaMonoStandardGalactic_bold.ttf
+        NovaMonoStandardGalactic_condense.ttf
+        NovaMonoStandardGalactic_expand.ttf
+        NovaMonoStandardGalactic_italic.ttf
+        NovaMonoStandardGalactic_outline.ttf
+        NovaMonoStandardGalactic_shadow.ttf
+        Systada_bold.ttf
+        Systada_italic.ttf
+        shapeform_bold.ttf
+        shapeform_condense.ttf
+        shapeform_expand.ttf
+        shapeform_italic.ttf
+        shapeform_outline.ttf
+        shapeform_shadow.ttf
+      stylesheet.css
+      transform-v2.py
+      transform-v3.py
+      transform.py
+    get-summaries.sh
+    index.html
+    initial-summaries.sh
+    overview/
+      Plenum Amplitudes.pdf
+      The_Illusions_of_Reality.json
+      The_Illusions_of_Reality.mp3
+      The_Illusions_of_Reality.txt
+      The_Illusions_of_Reality.vtt
+      index.html
+      realization-map.pdf
+      synthetic-grounding.pdf
+    realization-map.bib
+    realization-map.pdf
+    realization-map.tex
+    remove-duplicates.sh
+    robinsonade-generator.sh
+    synthetic-grounding.bib
+    synthetic-grounding.pdf
+    synthetic-grounding.tex
+    صرخة في الضباب version 2.mp3
+    صرخة في الضباب.jpg
+    صرخة في الضباب.mp3
+  commit-20260802-173630.log
+  commit-20260802-173640.log
+  commit-20260802-174015.log
+  examples/
+    toy_scenario.rs
+  file-list.txt
+  infographic.png
+  make_index.sh
+  monograph.aux
+  monograph.log
+  monograph.out
+  monograph.pdf
+  monograph.tex
+  monotonic_commit.sh
+  publish-20260802-195308.log
+  publish_sections.sh
+  repo-analyzer
+  repo_analyzer.rs
+  rsvp-evolution.aux
+  rsvp-evolution.idx
+  rsvp-evolution.log
+  rsvp-evolution.out
+  rsvp-evolution.pdf
+  rsvp-evolution.tex
+  rsvp-evolution.toc
+  run_tests.sh
+  src/
+    domain.rs
+    ledger.rs
+    lib.rs
+    objective.rs
+    reference_class.rs
+    taxonomy.rs
+  template.index.tsv
+  template.tex
+  test_results.txt
+  tests/
+    taxonomy_branches.rs
+  texput.log
+  version-01/
+    outline.txt
+    output.md
+    write_essay.sh
+  version-02/
+    file-list.txt
+    outline.txt
+    output.md
+    write_essay.sh
+  version-03/
+    outline.txt
+    output.md
+    write_essay.sh
