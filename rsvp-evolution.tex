@@ -9047,3 +9047,47 @@ curvature, the repair functional, and the admissibility constraints.
 Rather than acting independently, these quantities collectively determine
 the geometry of structural persistence.
 
+\section{Lyapunov Stability Revisited}
+
+Chapter 22 established the existence of a Lyapunov functional
+
+\[
+V.
+\]
+
+The present section interprets that result geometrically.
+
+Whenever
+
+\[
+\dot V < 0,
+\]
+
+repair decreases organizational defect.
+
+Consequently trajectories move toward structural attractors.
+
+The Lyapunov theorem therefore becomes a special case of organizational
+stability.
+
+The scalar functional
+
+\[
+V
+\]
+
+measures distance from persistent organization.
+
+\begin{theorem}[Structural Stability]
+Suppose \(V(x)\) is positive definite, \(\dot V(x)\le 0\), and repair
+remains bounded. Then every admissible trajectory remains within the basin
+of attraction of some structural attractor.
+\end{theorem}
+
+\begin{proof}
+By Chapter 22, \(V\) cannot increase. Therefore trajectories remain bounded.
+LaSalle's invariance principle implies convergence to the maximal invariant
+subset satisfying \(\dot V=0\). Within RSVP this invariant subset consists
+precisely of organizationally persistent structures.
+\end{proof}
+
