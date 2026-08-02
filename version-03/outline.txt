@@ -1,0 +1,112 @@
+# Structural Semantics and the Geometry of Repair
+
+## Abstract
+- Introduce the central thesis.
+- Contrast object-based and process-based ontologies.
+- State the role of admissibility, repair, and continuation.
+
+# 1. The Failure of Object Ontology
+## 1.1 Objects as compressed histories
+- Identity is maintained, not given.
+- Distinctions require continual support.
+
+## 1.2 Static descriptions versus dynamic maintenance
+- Persistence as an active process.
+- Examples from biology and computation.
+
+# 2. Distinctions as Primitive Structure
+## 2.1 What is a distinction?
+- Boundaries.
+- Separations.
+- Information.
+
+## 2.2 Recursive distinctions
+- Higher-order distinctions.
+- Nested constraints.
+
+## 2.3 Distinction geometry
+- Metric over distinguishable states.
+- Structural neighborhoods.
+
+# 3. Information as Admissible Difference
+## 3.1 Information without representation
+- Information as constraint.
+
+## 3.2 Structural semantics
+- Meaning from repair.
+- Semantics as continuation.
+
+## 3.3 Entropy revisited
+- Loss of admissible distinctions.
+- Reconstruction costs.
+
+# 4. Repair Before Identity
+## 4.1 Why systems fail
+
+## 4.2 Repair operators
+
+## 4.3 Stable persistence
+
+## 4.4 Recursive repair
+
+# 5. Admissibility
+## 5.1 Constraint manifolds
+
+## 5.2 Reachable states
+
+## 5.3 Repair trajectories
+
+## 5.4 Continuation versus termination
+
+# 6. Applications
+## 6.1 Biological systems
+- Homeostasis.
+- Immune response.
+- Physiology.
+
+## 6.2 Artificial intelligence
+- LLMs.
+- Memory.
+- Recursive reasoning.
+
+## 6.3 Programming languages
+- Ownership.
+- Lifetimes.
+- Rust as admissibility.
+
+## 6.4 Distributed systems
+- Consensus.
+- Fault tolerance.
+- Repair-first architectures.
+
+# 7. Mathematics
+## 7.1 Category theory
+
+## 7.2 Topology
+
+## 7.3 Sheaf-theoretic viewpoints
+
+## 7.4 Rewrite systems
+
+# 8. Cosmology
+## 8.1 Physical law as repair
+
+## 8.2 Evolution of structure
+
+## 8.3 Preference fields
+
+## 8.4 Recursive continuation
+
+# 9. Implications
+## 9.1 Knowledge
+
+## 9.2 Consciousness
+
+## 9.3 Economics
+
+## 9.4 Autonomous systems
+
+# Conclusion
+- Reality as maintained distinction.
+- Repair as the fundamental operation.
+- Future research directions.
