@@ -19268,3 +19268,44 @@ to
 \text{maintaining the capacity to reorganize maintenance}.
 \]
 
+\section{Implementation as Conceptual Testing}
+
+Software implementation repeatedly served as a test of the theoretical
+vocabulary.
+
+The RSVP simulators explored coupled scalar, vector, and entropy dynamics.
+Spherepop implementations tested whether irreversible operators could
+support a usable computational semantics. Semantic systems explored
+continuous-discrete coupling between field geometry and hypergraph
+structure. Rust projects tested admissibility, reachability, ownership,
+refusal, and explicit error domains in concrete programming environments.
+
+The most direct biological implementation is the physiome simulator
+introduced in earlier work. It models whole-body physiology through
+admissibility boundaries, independently scheduled subsystem continuations,
+and repair operators. Its engine does not require a complete predictive
+equation for every state transition before it can determine that a
+physiological variable has left an acceptable range. Instead it separates
+violation detection from corrective response.
+
+This implementation made several abstract claims operational:
+
+\[
+\text{admissibility is weaker than complete prediction},
+\]
+
+\[
+\text{repair can be dispatched without reconstructing the entire causal history},
+\]
+
+and
+
+\[
+\text{multiple timescales require continuation rather than a single universal clock}.
+\]
+
+The project also exposed real scheduling and dispatch errors, demonstrating
+the reciprocal relation between theory and implementation. The software did
+not merely illustrate a finished philosophy; it forced revisions to the
+architecture.
+
