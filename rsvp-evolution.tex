@@ -5142,3 +5142,65 @@ The regularity condition means that the constraints are locally independent.
 It excludes redundant or singular constraint descriptions in the region
 under consideration.
 
+\section{The Admissible Manifold}
+
+\begin{definition}[Admissible Set]
+
+The admissible set associated with the constraint map \(\mathcal C\) is
+
+\[
+\Adm_{\mathcal P}
+=
+\mathcal C^{-1}(0).
+\]
+
+A configuration \(p\in\mathcal P\) is admissible precisely when
+
+\[
+\mathcal C(p)=0.
+\]
+
+\end{definition}
+
+\begin{theorem}[Regular Admissible Manifold Theorem]
+
+Let
+
+\[
+\mathcal C:\mathcal P\longrightarrow\mathbb R^m
+\]
+
+be smooth, and suppose that \(0\in\mathbb R^m\) is a regular value of
+\(\mathcal C\). Then
+
+\[
+\Adm_{\mathcal P}
+=
+\mathcal C^{-1}(0)
+\]
+
+is an embedded submanifold of \(\mathcal P\) of codimension \(m\). Hence
+
+\[
+\dim\Adm_{\mathcal P}
+=
+n-m.
+\]
+
+\end{theorem}
+
+\begin{proof}
+
+The result follows from the regular value theorem. Since
+\(d\mathcal C_p\) is surjective for every
+\(p\in\mathcal C^{-1}(0)\), the level set \(\mathcal C^{-1}(0)\) is an
+embedded submanifold of codimension equal to the dimension of the target,
+namely \(m\).
+
+\end{proof}
+
+This theorem provides the first precise meaning of the phrase
+\emph{admissible manifold}. Admissibility is not merely a logical predicate.
+Under regularity assumptions, it defines a geometric region with its own
+tangent spaces, curves, metric structure, and intrinsic dynamics.
+
