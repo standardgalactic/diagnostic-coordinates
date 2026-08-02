@@ -1177,3 +1177,90 @@ It is persistence.
 
 Admissibility is intended to capture precisely this difference.
 
+\section{Admissible Evolution}
+
+Let
+
+\[
+\State
+\]
+
+denote the configuration space of a system.
+
+Every point
+
+\[
+s \in \State
+\]
+
+represents one complete description of the system under consideration.
+
+An evolution is a mapping
+
+\[
+\gamma :
+[0,T]
+\rightarrow
+\State.
+\]
+
+The curve
+
+\[
+\gamma(t)
+\]
+
+describes how the system changes through time.
+
+Not every curve represents a meaningful physical, computational, or logical
+process.
+
+Many trajectories violate conservation laws.
+
+Others violate biological constraints.
+
+Still others violate semantic consistency.
+
+Consequently, we introduce a distinguished subset
+
+\[
+\Adm
+\subseteq
+\State.
+\]
+
+The set
+
+\[
+\Adm
+\]
+
+contains precisely those configurations satisfying the structural
+requirements of the theory.
+
+\begin{definition}[Admissible State]
+
+A state
+
+\[
+s \in \State
+\]
+
+is called admissible whenever it satisfies every invariant required for
+continued evolution within the system.
+
+\[
+s \in \Adm.
+\]
+
+\end{definition}
+
+Notice that admissibility is intentionally independent of domain.
+
+The same definition applies to software, physiology, economics, language,
+robotics, and field theory.
+
+Only the invariants change.
+
+The mathematical structure remains identical.
+
