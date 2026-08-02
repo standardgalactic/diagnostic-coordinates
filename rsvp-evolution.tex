@@ -6485,3 +6485,127 @@ global existence.
 
 \end{proof}
 
+\section{Hierarchical Admissibility as a Fibered Construction}
+
+The informal Hierarchical Admissibility theorem from Chapter 5 can now be
+restated geometrically.
+
+Let
+
+\[
+\Adm_0,\Adm_1,\ldots,\Adm_n
+\]
+
+be admissible manifolds, and let
+
+\[
+\kappa_i:
+\Adm_i
+\longrightarrow
+\Adm_{i+1}
+\]
+
+be smooth compatibility maps.
+
+Define the hierarchical state space
+
+\[
+\mathcal H
+=
+\left\{
+(p_0,\ldots,p_n)
+\in
+\prod_{i=0}^{n}\Adm_i:
+\kappa_i(p_i)=p_{i+1}
+\text{ for }i=0,\ldots,n-1
+\right\}.
+\]
+
+\begin{theorem}[Geometric Hierarchical Admissibility]
+
+Suppose each \(\kappa_i\) is a submersion. Then \(\mathcal H\) is an embedded
+submanifold of
+
+\[
+\prod_{i=0}^{n}\Adm_i.
+\]
+
+Suppose further that each level carries an admissible vector field \(X_i\)
+satisfying the compatibility condition
+
+\[
+d\kappa_i(X_i)
+=
+X_{i+1}\circ\kappa_i.
+\]
+
+Then the product field
+
+\[
+X_{\mathcal H}
+=
+(X_0,\ldots,X_n)
+\]
+
+is tangent to \(\mathcal H\), and therefore generates a locally admissible
+continuation across every level simultaneously.
+
+\end{theorem}
+
+\begin{proof}
+
+Define
+
+\[
+F:
+\prod_{i=0}^{n}\Adm_i
+\longrightarrow
+\prod_{i=0}^{n-1}\Adm_{i+1}
+\]
+
+by
+
+\[
+F(p_0,\ldots,p_n)
+=
+\left(
+\kappa_0(p_0)-p_1,
+\ldots,
+\kappa_{n-1}(p_{n-1})-p_n
+\right)
+\]
+
+in compatible local charts. The submersion assumptions imply that \(0\) is
+a regular value, so
+
+\[
+\mathcal H
+=
+F^{-1}(0)
+\]
+
+is an embedded submanifold.
+
+For a compatible state,
+
+\[
+\frac{d}{dt}
+\left[
+\kappa_i(p_i)-p_{i+1}
+\right]
+=
+d\kappa_i(X_i)-X_{i+1}
+=
+0.
+\]
+
+Hence the product vector field is tangent to every compatibility constraint,
+and therefore tangent to \(\mathcal H\). Local continuation follows from the
+local existence theorem.
+
+\end{proof}
+
+This theorem supplies the deferred proof structure promised in Chapter 5.
+Admissibility composes across levels when both states and dynamics satisfy
+the required compatibility relations.
+
