@@ -5630,3 +5630,120 @@ The gradient is therefore
 d\mathcal C_p^{*}\mathcal C(p).
 \]
 
+\section{Repair as Gradient Flow}
+
+The simplest continuous repair dynamics move in the direction of steepest
+decrease of the violation functional.
+
+\begin{definition}[Gradient Repair Flow]
+
+The gradient repair flow is
+
+\[
+\boxed{
+\frac{dp}{d\tau}
+=
+-\grad V(p),
+}
+\]
+
+where \(\tau\) is repair time.
+
+\end{definition}
+
+Repair time need not initially be identified with physical time. It
+parameterizes motion directed specifically toward decreasing structural
+violation.
+
+\begin{proposition}[Monotonic Decrease of Violation]
+
+Along every solution of the gradient repair flow,
+
+\[
+\frac{d}{d\tau}V(p(\tau))
+=
+-
+\left\|
+\grad V(p(\tau))
+\right\|^2
+\leq 0.
+\]
+
+\end{proposition}
+
+\begin{proof}
+
+By the chain rule,
+
+\[
+\frac{d}{d\tau}V(p(\tau))
+=
+dV_{p(\tau)}
+\left(
+\frac{dp}{d\tau}
+\right).
+\]
+
+Substituting the repair equation gives
+
+\[
+\frac{d}{d\tau}V(p(\tau))
+=
+dV_{p(\tau)}
+\left(
+-\grad V(p(\tau))
+\right)
+=
+-
+g
+\left(
+\grad V,
+\grad V
+\right).
+\]
+
+Thus
+
+\[
+\frac{d}{d\tau}V
+=
+-
+\|\grad V\|^2
+\leq 0.
+\]
+
+\end{proof}
+
+\begin{corollary}[Admissible States are Fixed Points of Repair]
+
+Every \(p\in\Adm_{\mathcal P}\) is a fixed point of the gradient repair
+flow.
+
+\end{corollary}
+
+\begin{proof}
+
+If \(p\in\Adm_{\mathcal P}\), then
+
+\[
+\mathcal C(p)=0.
+\]
+
+Hence
+
+\[
+V(p)=0
+\]
+
+and
+
+\[
+\grad V(p)
+=
+d\mathcal C_p^{*}\mathcal C(p)
+=
+0.
+\]
+
+\end{proof}
+
