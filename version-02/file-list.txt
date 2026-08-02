@@ -1,0 +1,6 @@
+.
+├── file-list.txt
+├── outline.txt
+└── write_essay.sh
+
+1 directory, 3 files
