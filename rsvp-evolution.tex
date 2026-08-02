@@ -6391,3 +6391,63 @@ Thus the effective geometry of admissible evolution depends both on the
 curvature of the ambient configuration space and on the manner in which the
 constraints embed the admissible region within it.
 
+\section{Local Existence of Admissible Continuation}
+
+We can now state the first rigorous continuation theorem.
+
+\begin{theorem}[Local Admissible Continuation]
+
+Let \(\Adm_{\mathcal P}\) be a smooth embedded admissible manifold, and let
+
+\[
+X\in\Gamma(T\Adm_{\mathcal P})
+\]
+
+be a smooth admissible vector field. For every initial state
+
+\[
+p_0\in\Adm_{\mathcal P},
+\]
+
+there exists an interval
+
+\[
+(-\varepsilon,\varepsilon)
+\]
+
+and a unique smooth curve
+
+\[
+\gamma:
+(-\varepsilon,\varepsilon)
+\longrightarrow
+\Adm_{\mathcal P}
+\]
+
+such that
+
+\[
+\gamma(0)=p_0
+\]
+
+and
+
+\[
+\dot\gamma(t)
+=
+X(\gamma(t)).
+\]
+
+\end{theorem}
+
+\begin{proof}
+
+Since \(\Adm_{\mathcal P}\) is a smooth manifold and \(X\) is a smooth vector
+field on it, the standard local existence and uniqueness theorem for
+ordinary differential equations on manifolds applies.
+
+\end{proof}
+
+This theorem does not yet guarantee global continuation. Global existence
+requires additional completeness or boundedness assumptions.
+
