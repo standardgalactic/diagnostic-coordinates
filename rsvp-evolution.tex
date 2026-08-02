@@ -6071,3 +6071,66 @@ at a non-admissible state \(p\), then
 
 \end{corollary}
 
+\section{Viability at Inequality Boundaries}
+
+For inequality-constrained admissibility, tangency must be replaced by an
+inward-pointing condition.
+
+Suppose
+
+\[
+\Adm^{\leq}
+=
+\left\{
+p:
+B_j(p)\leq 0,
+\quad
+j=1,\ldots,r
+\right\}.
+\]
+
+At \(p\in\Adm^{\leq}\), define the active set
+
+\[
+I(p)
+=
+\left\{
+j:
+B_j(p)=0
+\right\}.
+\]
+
+\begin{definition}[Tangent Cone]
+
+The tangent cone to \(\Adm^{\leq}\) at \(p\) is
+
+\[
+T_{\Adm^{\leq}}(p)
+=
+\left\{
+v\in T_p\mathcal P:
+dB_j{}_p(v)\leq 0
+\text{ for every }j\in I(p)
+\right\}.
+\]
+
+\end{definition}
+
+\begin{definition}[Viable Vector Field]
+
+A vector field \(X\) is viable on \(\Adm^{\leq}\) if
+
+\[
+X(p)
+\in
+T_{\Adm^{\leq}}(p)
+\]
+
+for every \(p\in\Adm^{\leq}\).
+
+\end{definition}
+
+A viable field may move tangentially along a boundary or inward into the
+admissible region, but it may not point outward through an active
+constraint.
+
