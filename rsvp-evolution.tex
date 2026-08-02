@@ -1422,3 +1422,39 @@ continue.
 
 Together they define the architecture of persistence.
 
+\section{Hierarchical Admissibility}
+
+The convergence of evidence in Chapter 2, drawn independently from language
+and from nervous systems, suggested that admissibility should not be
+expected to hold only at a single level of description. Both examples were
+explicitly hierarchical: a nested sequence of organizational levels, each
+locally self-consistent, each coupled to its neighbors.
+
+The following statement makes that structural observation precise. It is
+presented here as a theorem to be proved in later, more technical work; its
+role at this stage is to establish that hierarchical composition of
+admissible levels is not merely permitted by the framework but is one of its
+expected regularities.
+
+\begin{theorem}[Hierarchical Admissibility]
+Let a system consist of nested organizational levels
+\(L_0, L_1, \ldots, L_n\), each equipped with its own admissible region
+\(\Adm_{L_i} \subseteq \State_{L_i}\). Suppose admissibility is preserved
+locally at each level under that level's own evolution, and suppose the
+inter-level coupling operators
+\(
+\kappa_i : \State_{L_i} \rightarrow \State_{L_{i+1}}
+\)
+satisfy the compatibility condition that admissible states at level
+\(L_i\) map into admissible states at level \(L_{i+1}\). Then the
+composite system, considered across all levels
+\(L_0, \ldots, L_n\) simultaneously, admits a continuation that preserves
+admissibility at every level.
+\end{theorem}
+
+A full proof requires specifying the coupling operators explicitly and is
+deferred to the mathematical development in Part II. Stated here, the
+theorem provides a formal bridge between the layered organization observed
+informally in the biological case in Chapter 2 and the treatment of repair,
+continuation, and field dynamics that follows in the remainder of Part I.
+
