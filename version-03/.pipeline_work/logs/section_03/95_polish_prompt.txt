@@ -1,0 +1,113 @@
+Final-pass copy edit of this section for:
+- concision without loss of meaning
+- sentence variety
+- terminology consistency with the project memory
+- typo/grammar fixes
+- smooth transitions
+- formal academic prose
+
+Do not invent citations. Return only the final section markdown.
+
+Project memory:
+# Project Memory
+
+## Definitions
+- **Structural Semantics**: A framework interpreting language through synta[5D[K
+syntactic and semantic structures.
+- **Object-Based Ontology**: An approach treating linguistic elements as im[2D[K
+immutable objects within a static network, focusing on intrinsic properties[10D[K
+properties and relationships (e.g., syntactic trees, semantic roles).
+- **Process-Based Ontology**: A perspective viewing language production and[3D[K
+and comprehension as fluid processes where meaning emerges through temporal[8D[K
+temporal interactions and transformations (e.g., discourse events, pragmati[8D[K
+pragmatic inferences).
+- **Admissibility Criteria**: Determinants that guide the feasibility of re[2D[K
+repair operations within linguistic structures.
+- **Geometry of Repair**: A spatial metaphor visualizing repair mechanisms [K
+as vector adjustments (object-based) or topological transformations (proces[7D[K
+(process-based).
+
+## Established Claims
+1. Structural semantics provides a robust framework for analyzing language [K
+through its structural components.
+2. Object-based ontologies prioritize stable, referentially integrated enti[4D[K
+entities within discourse.
+3. Process-based ontologies emphasize dynamic, interactionally aligned proc[4D[K
+processes sustaining meaning continuity.
+4. Admissibility criteria are essential in evaluating the feasibility of re[2D[K
+repairs across both object-based and process-based frameworks.
+5. The geometry of repair can be conceptualized as vector adjustments for o[1D[K
+object networks or topological transformations for discourse processes.
+6. A unified model reconciling object-based stability with process-based dy[2D[K
+dynamism enhances understanding of discourse coherence.
+7. Objects function as *compressed histories*, summarizing past states whil[4D[K
+while requiring continual reinforcement to remain distinct.
+8. Persistence of linguistic elements is an active process rather than a pa[2D[K
+passive attribute, necessitating dynamic maintenance for identity preservat[9D[K
+preservation.
+
+## Open Questions
+1. How can empirical validations of the geometric repair model be conducted[9D[K
+conducted across diverse multilingual and multimodal contexts?
+2. What specific metrics can quantify spatial proximity and topological con[3D[K
+continuity in real-time discourse analysis?
+3. Are there inherent limitations to reconciling object-based and process-b[9D[K
+process-based ontologies within a single geometric framework?
+4. How do individual differences in language proficiency influence the admi[4D[K
+admissibility of repair operations according to this model?
+5. Can the geometry of repair be extended to non-linguistic communication m[1D[K
+modalities (e.g., gestures, sign languages)?
+6. What mechanisms allow process-based ontologies to effectively maintain m[1D[K
+meaning persistence across evolving discourse contexts?
+7. How does integrating biological and computational analogies enhance our [K
+understanding of linguistic repair dynamics?
+
+Section:
+# 2. Distinctions as Primitive Structure  
+
+## 2.1 What is a distinction?  
+A **distinction** forms the foundational unit of structural semantics, deli[4D[K
+delineating boundaries that separate one set of linguistic elements from an[2D[K
+another—semantic and functional rather than merely visual. In *"The cat sat[3D[K
+sat on the mat,"* the subject–object boundary informs parsing and meaning a[1D[K
+attribution. Distinctions operate lexically (e.g., *cat* vs. *dog*), gramma[6D[K
+grammatically (nouns vs. verbs), and pragmatically (assertions vs. question[8D[K
+questions), serving as **informational markers** that signal shifts in focu[4D[K
+focus or interpretation within discourse.
+
+## 2.2 Recursive distinctions  
+Building on this foundation, distinctions are inherently recursive, allowin[7D[K
+allowing higher‑order distinctions to encapsulate lower‑level ones in a nes[3D[K
+nested hierarchy. This aligns with the object‑based ontology’s emphasis on [K
+stable referents while echoing process‑based ontologies through dynamic unf[3D[K
+unfolding during discourse. For example, in *"Although John was tired, he n[1D[K
+nevertheless decided to exercise,"* the primary distinction between the mai[3D[K
+main and subordinate clauses organizes subsidiary distinctions concerning t[1D[K
+temporal sequencing and pragmatic contrast, aggregating lower‑level element[7D[K
+elements into coherent units that maintain both stability and fluidity.
+
+## 2.3 Distinction geometry  
+Geometrically, distinctions can be visualized as points or vectors in a mul[3D[K
+multidimensional space, each dimension representing a mode of differentiati[13D[K
+differentiation (syntactic role, semantic category, pragmatic function). Th[2D[K
+The **distinction geometry** posits that spatial relationships—proximity, a[1D[K
+alignment, separation—mirror the dynamics of linguistic repair. For instanc[7D[K
+instance, repairing ambiguity may involve adjusting a vector to align with [K
+a new contextual cue, reflecting a topological transformation akin to the “[1D[K
+“geometry of repair” described in the project memory, where spatial proximi[7D[K
+proximity indicates admissible modification pathways.
+
+**Conclusion:** By mapping distinctions onto a geometric framework, we illu[4D[K
+illuminate mechanisms governing meaning construction, repair, and continuit[9D[K
+continuity across both object‑based stability and process‑based dynamism, r[1D[K
+reinforcing claim 7 about objects as compressed histories requiring continu[7D[K
+continual reinforcement. This approach aligns seamlessly with the broader “[1D[K
+“geometry of repair” model, ensuring coherence with established project mem[3D[K
+memory claims.
+
+---
+
+**Word count:** ~420 words  
+
+*Note: The revised section maintains formal academic prose, adheres to the [K
+provided outline, and integrates consistency with the project memory.*
