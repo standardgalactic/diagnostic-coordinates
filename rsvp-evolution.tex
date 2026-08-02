@@ -6894,3 +6894,49 @@ increase structural violation.
 
 It is stronger than mere continuity.
 
+\section{Repair Homotopy}
+
+Different repair procedures may nevertheless accomplish the same structural
+correction.
+
+\begin{definition}[Repair Homotopy]
+
+Two repair paths
+
+\[
+\rho_0,
+\rho_1
+\]
+
+are repair-homotopic if there exists a continuous map
+
+\[
+H:
+[0,1]\times[0,1]
+\rightarrow
+\State
+\]
+
+such that
+
+\[
+H(s,0)=\rho_0(s),
+\]
+
+\[
+H(s,1)=\rho_1(s),
+\]
+
+while every intermediate path
+
+\[
+H(\cdot,t)
+\]
+
+remains a repair path.
+
+\end{definition}
+
+Thus repair homotopy preserves both continuity and monotonic reduction of
+violation.
+
