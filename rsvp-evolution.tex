@@ -8429,3 +8429,96 @@ difficulty rather than Euclidean distance.
 
 Different repair geometries generate different recovery trajectories.
 
+\section{Lyapunov Stability}
+
+The violation functional naturally becomes a Lyapunov function.
+
+\begin{theorem}
+
+Suppose
+
+\[
+V(q)\ge0,
+\]
+
+with
+
+\[
+V(q)=0
+\]
+
+if and only if
+
+\[
+q
+\in
+\Adm.
+\]
+
+If repair satisfies
+
+\[
+\dot q
+=
+-
+G^{-1}\nabla V,
+\]
+
+where
+
+\[
+G
+\]
+
+is positive definite, then
+
+\[
+V
+\]
+
+is strictly decreasing along every nontrivial repair trajectory.
+
+\end{theorem}
+
+\begin{proof}
+
+Differentiating gives
+
+\[
+\frac{dV}{dt}
+=
+\nabla V
+\cdot
+\dot q.
+\]
+
+Substituting the repair equation,
+
+\[
+\frac{dV}{dt}
+=
+-
+\nabla V^{T}
+G^{-1}
+\nabla V.
+\]
+
+Positive definiteness of
+
+\[
+G
+\]
+
+implies
+
+\[
+\frac{dV}{dt}
+\le0,
+\]
+
+with equality only at admissible equilibrium.
+
+\end{proof}
+
+Thus admissibility becomes an asymptotically stable manifold.
+
