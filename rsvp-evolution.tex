@@ -6609,3 +6609,103 @@ This theorem supplies the deferred proof structure promised in Chapter 5.
 Admissibility composes across levels when both states and dynamics satisfy
 the required compatibility relations.
 
+\section{Field-Theoretic Extension}
+
+For RSVP, the ambient configuration space is not finite-dimensional.
+
+Let \(M\) be a spacetime manifold, and let \(E\to M\) be a vector bundle
+whose sections encode the scalar and vector fields of the plenum. A field
+configuration is a section
+
+\[
+\Psi
+=
+(\Phi,A)
+\in
+\Gamma(E).
+\]
+
+After choosing an appropriate Sobolev completion, one obtains a Banach
+manifold
+
+\[
+\mathcal P
+=
+W^{k,p}(E)
+\]
+
+or a Hilbert manifold when \(p=2\).
+
+A smooth constraint operator takes the form
+
+\[
+\mathcal C:
+\mathcal P
+\longrightarrow
+\mathcal Y,
+\]
+
+where \(\mathcal Y\) is another Banach space of constraint fields.
+
+The admissible field manifold is
+
+\[
+\Adm_{\mathcal P}
+=
+\mathcal C^{-1}(0).
+\]
+
+If the Fréchet derivative
+
+\[
+D\mathcal C_{\Psi}:
+T_{\Psi}\mathcal P
+\longrightarrow
+\mathcal Y
+\]
+
+is a split surjection at every admissible field, then the Banach-manifold
+regular value theorem implies that
+\(\Adm_{\mathcal P}\) is a smooth Banach submanifold.
+
+Its tangent space is
+
+\[
+T_{\Psi}\Adm_{\mathcal P}
+=
+\ker D\mathcal C_{\Psi}.
+\]
+
+The same structural formulas then survive:
+
+\[
+\dot\Psi
+\in
+\ker D\mathcal C_{\Psi}
+\]
+
+for admissible evolution,
+
+\[
+\grad V(\Psi)
+=
+D\mathcal C_{\Psi}^{*}\mathcal C(\Psi)
+\]
+
+for gradient repair, and
+
+\[
+\dot\Psi
+=
+Y(\Psi)
+-
+\eta
+D\mathcal C_{\Psi}^{*}\mathcal C(\Psi)
+\]
+
+for repair-corrected field dynamics.
+
+The unresolved work lies in proving that the RSVP constraint operator has
+the required smoothness, ellipticity or hyperbolicity, split-surjectivity,
+and coercivity properties in the chosen function spaces.
+
