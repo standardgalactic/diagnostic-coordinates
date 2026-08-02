@@ -5864,3 +5864,87 @@ exponentially.
 This result gives a precise local meaning to the claim that repair restores
 admissibility.
 
+\section{The Tubular Repair Map}
+
+For a closed embedded submanifold, repair may also be represented by a
+projection rather than by a continuous flow.
+
+\begin{theorem}[Tubular Neighborhood Projection]
+
+Let \(\Adm_{\mathcal P}\) be a closed embedded submanifold of a Riemannian
+manifold \(\mathcal P\). Then there exists an open neighborhood
+
+\[
+U\supseteq\Adm_{\mathcal P}
+\]
+
+and a smooth map
+
+\[
+\pi_{\Adm}:U\longrightarrow\Adm_{\mathcal P}
+\]
+
+such that
+
+\[
+\pi_{\Adm}(p)=p
+\]
+
+for every \(p\in\Adm_{\mathcal P}\).
+
+\end{theorem}
+
+The map \(\pi_{\Adm}\) is the nearest-point projection in a sufficiently
+small tubular neighborhood.
+
+\begin{definition}[Geometric Repair Operator]
+
+A geometric repair operator is a smooth retraction
+
+\[
+R:U\longrightarrow\Adm_{\mathcal P}
+\]
+
+satisfying
+
+\[
+R|_{\Adm_{\mathcal P}}
+=
+\id_{\Adm_{\mathcal P}}.
+\]
+
+\end{definition}
+
+The identity condition expresses refusal to alter an already admissible
+state. It is the geometric version of repair-as-identity on the admissible
+region.
+
+\begin{proposition}[Idempotence of Exact Repair]
+
+Every geometric repair operator satisfies
+
+\[
+R\circ R
+=
+R.
+\]
+
+\end{proposition}
+
+\begin{proof}
+
+For every \(p\in U\), the point \(R(p)\) lies in
+\(\Adm_{\mathcal P}\). Since \(R\) restricts to the identity on
+\(\Adm_{\mathcal P}\),
+
+\[
+R(R(p))
+=
+R(p).
+\]
+
+\end{proof}
+
+Thus exact repair is idempotent. Once admissibility has been restored,
+reapplying the same exact repair produces no further change.
+
