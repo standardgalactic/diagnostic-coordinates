@@ -1,0 +1,369 @@
+version-01
+├── outline.txt
+├── output.md
+└── write_essay.sh
+version-02
+├── .pipeline_work
+│   ├── .ollama_err
+│   ├── logs
+│   │   ├── section.prompt.txt
+│   │   ├── section_01
+│   │   │   ├── 01_draft_prompt.txt
+│   │   │   ├── 02_draft.md
+│   │   │   ├── 03_critique_prompt.txt
+│   │   │   ├── 04_critique.md
+│   │   │   ├── 05_revise_prompt.txt
+│   │   │   ├── 06_revised.md
+│   │   │   ├── 90_consistency_prompt.txt
+│   │   │   ├── 91_consistency.md
+│   │   │   ├── 95_polish_prompt.txt
+│   │   │   ├── 98_memory_prompt.txt
+│   │   │   ├── 99_memory_updated.md
+│   │   │   └── section.log
+│   │   ├── section_02
+│   │   │   ├── 01_draft_prompt.txt
+│   │   │   ├── 02_draft.md
+│   │   │   ├── 03_critique_prompt.txt
+│   │   │   ├── 04_critique.md
+│   │   │   ├── 05_revise_prompt.txt
+│   │   │   ├── 06_revised.md
+│   │   │   ├── 90_consistency_prompt.txt
+│   │   │   ├── 91_consistency.md
+│   │   │   ├── 95_polish_prompt.txt
+│   │   │   ├── 98_memory_prompt.txt
+│   │   │   ├── 99_memory_updated.md
+│   │   │   └── section.log
+│   │   ├── section_03
+│   │   │   ├── 01_draft_prompt.txt
+│   │   │   ├── 02_draft.md
+│   │   │   ├── 03_critique_prompt.txt
+│   │   │   ├── 04_critique.md
+│   │   │   ├── 05_revise_prompt.txt
+│   │   │   ├── 06_revised.md
+│   │   │   ├── 90_consistency_prompt.txt
+│   │   │   ├── 91_consistency.md
+│   │   │   ├── 92_consistency_fix_prompt.txt
+│   │   │   ├── 93_consistency_fixed.md
+│   │   │   ├── 95_polish_prompt.txt
+│   │   │   ├── 98_memory_prompt.txt
+│   │   │   ├── 99_memory_updated.md
+│   │   │   └── section.log
+│   │   ├── section_04
+│   │   │   ├── 01_draft_prompt.txt
+│   │   │   ├── 02_draft.md
+│   │   │   ├── 03_critique_prompt.txt
+│   │   │   ├── 04_critique.md
+│   │   │   ├── 05_revise_prompt.txt
+│   │   │   ├── 06_revised.md
+│   │   │   ├── 90_consistency_prompt.txt
+│   │   │   ├── 91_consistency.md
+│   │   │   ├── 95_polish_prompt.txt
+│   │   │   ├── 98_memory_prompt.txt
+│   │   │   ├── 99_memory_updated.md
+│   │   │   └── section.log
+│   │   ├── section_05
+│   │   │   ├── 01_draft_prompt.txt
+│   │   │   ├── 02_draft.md
+│   │   │   ├── 03_critique_prompt.txt
+│   │   │   ├── 04_critique.md
+│   │   │   ├── 05_revise_prompt.txt
+│   │   │   ├── 06_revised.md
+│   │   │   ├── 90_consistency_prompt.txt
+│   │   │   ├── 91_consistency.md
+│   │   │   ├── 95_polish_prompt.txt
+│   │   │   ├── 98_memory_prompt.txt
+│   │   │   ├── 99_memory_updated.md
+│   │   │   └── section.log
+│   │   ├── section_06
+│   │   │   ├── 01_draft_prompt.txt
+│   │   │   ├── 02_draft.md
+│   │   │   ├── 03_critique_prompt.txt
+│   │   │   ├── 04_critique.md
+│   │   │   ├── 05_revise_prompt.txt
+│   │   │   ├── 06_revised.md
+│   │   │   ├── 90_consistency_prompt.txt
+│   │   │   ├── 91_consistency.md
+│   │   │   ├── 95_polish_prompt.txt
+│   │   │   ├── 98_memory_prompt.txt
+│   │   │   ├── 99_memory_updated.md
+│   │   │   └── section.log
+│   │   ├── section_07
+│   │   │   ├── 01_draft_prompt.txt
+│   │   │   ├── 02_draft.md
+│   │   │   ├── 03_critique_prompt.txt
+│   │   │   ├── 04_critique.md
+│   │   │   ├── 05_revise_prompt.txt
+│   │   │   ├── 06_revised.md
+│   │   │   ├── 90_consistency_prompt.txt
+│   │   │   ├── 91_consistency.md
+│   │   │   ├── 92_consistency_fix_prompt.txt
+│   │   │   ├── 93_consistency_fixed.md
+│   │   │   ├── 95_polish_prompt.txt
+│   │   │   ├── 98_memory_prompt.txt
+│   │   │   ├── 99_memory_updated.md
+│   │   │   └── section.log
+│   │   ├── section_08
+│   │   │   ├── 01_draft_prompt.txt
+│   │   │   ├── 02_draft.md
+│   │   │   ├── 03_critique_prompt.txt
+│   │   │   ├── 04_critique.md
+│   │   │   ├── 05_revise_prompt.txt
+│   │   │   ├── 06_revised.md
+│   │   │   ├── 90_consistency_prompt.txt
+│   │   │   ├── 91_consistency.md
+│   │   │   ├── 92_consistency_fix_prompt.txt
+│   │   │   ├── 93_consistency_fixed.md
+│   │   │   ├── 95_polish_prompt.txt
+│   │   │   ├── 98_memory_prompt.txt
+│   │   │   ├── 99_memory_updated.md
+│   │   │   └── section.log
+│   │   ├── section_09
+│   │   │   ├── 01_draft_prompt.txt
+│   │   │   ├── 02_draft.md
+│   │   │   ├── 03_critique_prompt.txt
+│   │   │   ├── 04_critique.md
+│   │   │   ├── 05_revise_prompt.txt
+│   │   │   ├── 06_revised.md
+│   │   │   ├── 90_consistency_prompt.txt
+│   │   │   ├── 91_consistency.md
+│   │   │   ├── 95_polish_prompt.txt
+│   │   │   ├── 98_memory_prompt.txt
+│   │   │   ├── 99_memory_updated.md
+│   │   │   └── section.log
+│   │   ├── section_10
+│   │   │   ├── 01_draft_prompt.txt
+│   │   │   ├── 02_draft.md
+│   │   │   ├── 03_critique_prompt.txt
+│   │   │   ├── 04_critique.md
+│   │   │   ├── 05_revise_prompt.txt
+│   │   │   ├── 06_revised.md
+│   │   │   ├── 90_consistency_prompt.txt
+│   │   │   ├── 91_consistency.md
+│   │   │   ├── 95_polish_prompt.txt
+│   │   │   ├── 98_memory_prompt.txt
+│   │   │   ├── 99_memory_updated.md
+│   │   │   └── section.log
+│   │   └── section_11
+│   │       ├── 01_draft_prompt.txt
+│   │       ├── 02_draft.md
+│   │       ├── 03_critique_prompt.txt
+│   │       ├── 04_critique.md
+│   │       ├── 05_revise_prompt.txt
+│   │       ├── 06_revised.md
+│   │       ├── 90_consistency_prompt.txt
+│   │       ├── 91_consistency.md
+│   │       ├── 95_polish_prompt.txt
+│   │       ├── 98_memory_prompt.txt
+│   │       ├── 99_memory_updated.md
+│   │       └── section.log
+│   ├── memory.md
+│   ├── sections_in
+│   │   ├── 01.md
+│   │   ├── 02.md
+│   │   ├── 03.md
+│   │   ├── 04.md
+│   │   ├── 05.md
+│   │   ├── 06.md
+│   │   ├── 07.md
+│   │   ├── 08.md
+│   │   ├── 09.md
+│   │   ├── 10.md
+│   │   └── 11.md
+│   └── sections_out
+│       ├── 01_final.md
+│       ├── 02_final.md
+│       ├── 03_final.md
+│       ├── 04_final.md
+│       ├── 05_final.md
+│       ├── 06_final.md
+│       ├── 07_final.md
+│       ├── 08_final.md
+│       ├── 09_final.md
+│       ├── 10_final.md
+│       └── 11_final.md
+├── file-list.txt
+├── outline.txt
+├── output.md
+└── write_essay.sh
+version-03
+├── .pipeline_work
+│   ├── .ollama_err
+│   ├── logs
+│   │   ├── section.prompt.txt
+│   │   ├── section_01
+│   │   │   ├── 01_draft_prompt.txt
+│   │   │   ├── 02_draft.md
+│   │   │   ├── 03_critique_prompt.txt
+│   │   │   ├── 04_critique.md
+│   │   │   ├── 05_revise_prompt.txt
+│   │   │   ├── 06_revised.md
+│   │   │   ├── 90_consistency_prompt.txt
+│   │   │   ├── 91_consistency.md
+│   │   │   ├── 95_polish_prompt.txt
+│   │   │   ├── 98_memory_prompt.txt
+│   │   │   ├── 99_memory_updated.md
+│   │   │   └── section.log
+│   │   ├── section_02
+│   │   │   ├── 01_draft_prompt.txt
+│   │   │   ├── 02_draft.md
+│   │   │   ├── 03_critique_prompt.txt
+│   │   │   ├── 04_critique.md
+│   │   │   ├── 05_revise_prompt.txt
+│   │   │   ├── 06_revised.md
+│   │   │   ├── 90_consistency_prompt.txt
+│   │   │   ├── 91_consistency.md
+│   │   │   ├── 95_polish_prompt.txt
+│   │   │   ├── 98_memory_prompt.txt
+│   │   │   ├── 99_memory_updated.md
+│   │   │   └── section.log
+│   │   ├── section_03
+│   │   │   ├── 01_draft_prompt.txt
+│   │   │   ├── 02_draft.md
+│   │   │   ├── 03_critique_prompt.txt
+│   │   │   ├── 04_critique.md
+│   │   │   ├── 05_revise_prompt.txt
+│   │   │   ├── 06_revised.md
+│   │   │   ├── 90_consistency_prompt.txt
+│   │   │   ├── 91_consistency.md
+│   │   │   ├── 95_polish_prompt.txt
+│   │   │   ├── 98_memory_prompt.txt
+│   │   │   ├── 99_memory_updated.md
+│   │   │   └── section.log
+│   │   ├── section_04
+│   │   │   ├── 01_draft_prompt.txt
+│   │   │   ├── 02_draft.md
+│   │   │   ├── 03_critique_prompt.txt
+│   │   │   ├── 04_critique.md
+│   │   │   ├── 05_revise_prompt.txt
+│   │   │   ├── 06_revised.md
+│   │   │   ├── 90_consistency_prompt.txt
+│   │   │   ├── 91_consistency.md
+│   │   │   ├── 95_polish_prompt.txt
+│   │   │   ├── 98_memory_prompt.txt
+│   │   │   ├── 99_memory_updated.md
+│   │   │   └── section.log
+│   │   ├── section_05
+│   │   │   ├── 01_draft_prompt.txt
+│   │   │   ├── 02_draft.md
+│   │   │   ├── 03_critique_prompt.txt
+│   │   │   ├── 04_critique.md
+│   │   │   ├── 05_revise_prompt.txt
+│   │   │   ├── 06_revised.md
+│   │   │   ├── 90_consistency_prompt.txt
+│   │   │   ├── 91_consistency.md
+│   │   │   ├── 95_polish_prompt.txt
+│   │   │   ├── 98_memory_prompt.txt
+│   │   │   ├── 99_memory_updated.md
+│   │   │   └── section.log
+│   │   ├── section_06
+│   │   │   ├── 01_draft_prompt.txt
+│   │   │   ├── 02_draft.md
+│   │   │   ├── 03_critique_prompt.txt
+│   │   │   ├── 04_critique.md
+│   │   │   ├── 05_revise_prompt.txt
+│   │   │   ├── 06_revised.md
+│   │   │   ├── 90_consistency_prompt.txt
+│   │   │   ├── 91_consistency.md
+│   │   │   ├── 95_polish_prompt.txt
+│   │   │   ├── 98_memory_prompt.txt
+│   │   │   ├── 99_memory_updated.md
+│   │   │   └── section.log
+│   │   ├── section_07
+│   │   │   ├── 01_draft_prompt.txt
+│   │   │   ├── 02_draft.md
+│   │   │   ├── 03_critique_prompt.txt
+│   │   │   ├── 04_critique.md
+│   │   │   ├── 05_revise_prompt.txt
+│   │   │   ├── 06_revised.md
+│   │   │   ├── 90_consistency_prompt.txt
+│   │   │   ├── 91_consistency.md
+│   │   │   ├── 92_consistency_fix_prompt.txt
+│   │   │   ├── 93_consistency_fixed.md
+│   │   │   ├── 95_polish_prompt.txt
+│   │   │   ├── 98_memory_prompt.txt
+│   │   │   ├── 99_memory_updated.md
+│   │   │   └── section.log
+│   │   ├── section_08
+│   │   │   ├── 01_draft_prompt.txt
+│   │   │   ├── 02_draft.md
+│   │   │   ├── 03_critique_prompt.txt
+│   │   │   ├── 04_critique.md
+│   │   │   ├── 05_revise_prompt.txt
+│   │   │   ├── 06_revised.md
+│   │   │   ├── 90_consistency_prompt.txt
+│   │   │   ├── 91_consistency.md
+│   │   │   ├── 95_polish_prompt.txt
+│   │   │   ├── 98_memory_prompt.txt
+│   │   │   ├── 99_memory_updated.md
+│   │   │   └── section.log
+│   │   ├── section_09
+│   │   │   ├── 01_draft_prompt.txt
+│   │   │   ├── 02_draft.md
+│   │   │   ├── 03_critique_prompt.txt
+│   │   │   ├── 04_critique.md
+│   │   │   ├── 05_revise_prompt.txt
+│   │   │   ├── 06_revised.md
+│   │   │   ├── 90_consistency_prompt.txt
+│   │   │   ├── 91_consistency.md
+│   │   │   ├── 95_polish_prompt.txt
+│   │   │   ├── 98_memory_prompt.txt
+│   │   │   ├── 99_memory_updated.md
+│   │   │   └── section.log
+│   │   ├── section_10
+│   │   │   ├── 01_draft_prompt.txt
+│   │   │   ├── 02_draft.md
+│   │   │   ├── 03_critique_prompt.txt
+│   │   │   ├── 04_critique.md
+│   │   │   ├── 05_revise_prompt.txt
+│   │   │   ├── 06_revised.md
+│   │   │   ├── 90_consistency_prompt.txt
+│   │   │   ├── 91_consistency.md
+│   │   │   ├── 92_consistency_fix_prompt.txt
+│   │   │   ├── 93_consistency_fixed.md
+│   │   │   ├── 95_polish_prompt.txt
+│   │   │   ├── 98_memory_prompt.txt
+│   │   │   ├── 99_memory_updated.md
+│   │   │   └── section.log
+│   │   └── section_11
+│   │       ├── 01_draft_prompt.txt
+│   │       ├── 02_draft.md
+│   │       ├── 03_critique_prompt.txt
+│   │       ├── 04_critique.md
+│   │       ├── 05_revise_prompt.txt
+│   │       ├── 06_revised.md
+│   │       ├── 90_consistency_prompt.txt
+│   │       ├── 91_consistency.md
+│   │       ├── 95_polish_prompt.txt
+│   │       ├── 98_memory_prompt.txt
+│   │       ├── 99_memory_updated.md
+│   │       └── section.log
+│   ├── memory.md
+│   ├── sections_in
+│   │   ├── 01.md
+│   │   ├── 02.md
+│   │   ├── 03.md
+│   │   ├── 04.md
+│   │   ├── 05.md
+│   │   ├── 06.md
+│   │   ├── 07.md
+│   │   ├── 08.md
+│   │   ├── 09.md
+│   │   ├── 10.md
+│   │   └── 11.md
+│   └── sections_out
+│       ├── 01_final.md
+│       ├── 02_final.md
+│       ├── 03_final.md
+│       ├── 04_final.md
+│       ├── 05_final.md
+│       ├── 06_final.md
+│       ├── 07_final.md
+│       ├── 08_final.md
+│       ├── 09_final.md
+│       ├── 10_final.md
+│       └── 11_final.md
+├── outline.txt
+├── output.md
+└── write_essay.sh
+
+33 directories, 334 files
