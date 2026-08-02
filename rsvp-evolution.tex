@@ -12928,3 +12928,29 @@ state space.
 Correct execution preserves computational admissibility throughout the
 entire trajectory rather than merely producing a correct final result.
 
+\section{Computational Admissibility}
+
+Let
+
+\[
+\Adm_C
+\]
+
+denote the admissible manifold of computational states.
+
+Examples of admissibility constraints include type correctness, memory
+safety, ownership, resource availability, process synchronization, and
+interface consistency.
+
+Program execution seeks to remain within
+
+\[
+\Adm_C.
+\]
+
+Whenever execution leaves this manifold, repair or refusal becomes
+necessary.
+
+Programming languages therefore define organizational boundaries before
+they define computation.
+
