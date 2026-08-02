@@ -5516,3 +5516,65 @@ The result follows from the invariance theorem.
 
 \end{proof}
 
+\section{Explicit Projection Formula}
+
+Suppose that \(\mathcal P\) is locally represented by coordinates and that
+the metric is positive definite. Let
+
+\[
+J_{\mathcal C}(p)
+\]
+
+denote the Jacobian of the constraint map.
+
+When \(J_{\mathcal C}(p)\) has full row rank, the orthogonal projection onto
+the tangent space is
+
+\[
+\boxed{
+\Pi_p^{\top}
+=
+I
+-
+J_{\mathcal C}(p)^{\dagger}
+J_{\mathcal C}(p),
+}
+\]
+
+where
+
+\[
+J_{\mathcal C}(p)^{\dagger}
+=
+J_{\mathcal C}(p)^{T}
+\left(
+J_{\mathcal C}(p)
+J_{\mathcal C}(p)^{T}
+\right)^{-1}
+\]
+
+is the right Moore--Penrose inverse.
+
+Therefore the projected dynamics are
+
+\[
+\boxed{
+\dot p
+=
+\left[
+I
+-
+J_{\mathcal C}(p)^{T}
+\left(
+J_{\mathcal C}(p)
+J_{\mathcal C}(p)^{T}
+\right)^{-1}
+J_{\mathcal C}(p)
+\right]
+Y(p).
+}
+\]
+
+This formula exhibits admissibility as a dynamical restriction: the ambient
+motion is retained only in directions compatible with the constraints.
+
