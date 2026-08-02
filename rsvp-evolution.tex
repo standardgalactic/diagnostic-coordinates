@@ -5747,3 +5747,120 @@ d\mathcal C_p^{*}\mathcal C(p)
 
 \end{proof}
 
+\section{Local Convergence of Repair}
+
+Monotonic decrease alone does not guarantee convergence to the admissible
+manifold. Additional regularity is required.
+
+\begin{theorem}[Local Convergence of Gradient Repair]
+
+Suppose that \(0\) is a regular value of \(\mathcal C\), that
+\(\Adm_{\mathcal P}\) is closed, and that \(\mathcal P\) is equipped with a
+Riemannian metric. For every compact subset
+
+\[
+K\subseteq\Adm_{\mathcal P},
+\]
+
+there exists a neighborhood \(U\) of \(K\) and constants
+\(a,b>0\) such that every repair trajectory beginning in \(U\) satisfies
+
+\[
+V(p(\tau))
+\leq
+V(p(0))e^{-a\tau}
+\]
+
+for as long as the trajectory remains in \(U\).
+
+Consequently,
+
+\[
+\operatorname{dist}
+\left(
+p(\tau),
+\Adm_{\mathcal P}
+\right)
+\longrightarrow
+0
+\]
+
+exponentially as \(\tau\to\infty\).
+
+\end{theorem}
+
+\begin{proof}
+
+Because \(0\) is a regular value, the differential
+\(d\mathcal C_p\) is surjective on \(\Adm_{\mathcal P}\). On a sufficiently
+small tubular neighborhood of the compact set \(K\), the smallest nonzero
+singular value of \(d\mathcal C_p\) is bounded below by a positive constant
+\(\sigma\).
+
+Hence
+
+\[
+\left\|
+d\mathcal C_p^{*}\mathcal C(p)
+\right\|^2
+\geq
+\sigma^2
+\left\|
+\mathcal C(p)
+\right\|^2.
+\]
+
+Since
+
+\[
+V(p)
+=
+\frac12
+\left\|
+\mathcal C(p)
+\right\|^2,
+\]
+
+the repair flow satisfies
+
+\[
+\frac{dV}{d\tau}
+=
+-
+\left\|
+d\mathcal C_p^{*}\mathcal C(p)
+\right\|^2
+\leq
+-2\sigma^2 V.
+\]
+
+Grönwall's inequality gives
+
+\[
+V(p(\tau))
+\leq
+V(p(0))
+e^{-2\sigma^2\tau}.
+\]
+
+The regular level-set theorem and the existence of a tubular neighborhood
+imply local equivalence between
+\(\|\mathcal C(p)\|\) and the distance to the admissible manifold. Therefore
+
+\[
+\operatorname{dist}
+\left(
+p(\tau),
+\Adm_{\mathcal P}
+\right)
+\longrightarrow
+0
+\]
+
+exponentially.
+
+\end{proof}
+
+This result gives a precise local meaning to the claim that repair restores
+admissibility.
+
