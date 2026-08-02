@@ -5578,3 +5578,55 @@ Y(p).
 This formula exhibits admissibility as a dynamical restriction: the ambient
 motion is retained only in directions compatible with the constraints.
 
+\section{Violation Functionals}
+
+The zero set of the constraint map distinguishes admissible from
+non-admissible configurations. To quantify the degree of violation, define a
+scalar functional.
+
+\begin{definition}[Quadratic Violation Functional]
+
+Let \(\langle\cdot,\cdot\rangle_{\mathbb R^m}\) denote the Euclidean inner
+product on \(\mathbb R^m\). The quadratic violation functional is
+
+\[
+V:\mathcal P\longrightarrow\mathbb R_{\geq 0},
+\qquad
+V(p)
+=
+\frac12
+\left\|
+\mathcal C(p)
+\right\|^2.
+\]
+
+\end{definition}
+
+Then
+
+\[
+V(p)=0
+\quad\Longleftrightarrow\quad
+p\in\Adm_{\mathcal P}.
+\]
+
+Its differential is
+
+\[
+dV_p
+=
+d\mathcal C_p^{*}
+\mathcal C(p),
+\]
+
+where \(d\mathcal C_p^{*}\) is the metric adjoint of
+\(d\mathcal C_p\).
+
+The gradient is therefore
+
+\[
+\grad V(p)
+=
+d\mathcal C_p^{*}\mathcal C(p).
+\]
+
