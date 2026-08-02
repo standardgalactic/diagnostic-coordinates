@@ -1933,3 +1933,42 @@ Objects are stable histories.
 
 They are not frozen configurations.
 
+\section{The Continuation Relation}
+
+Continuation possesses several desirable properties.
+
+First, every admissible state continues itself.
+
+\[
+s \rightsquigarrow s.
+\]
+
+Second, if
+
+\[
+s_1 \rightsquigarrow s_2
+\]
+
+and
+
+\[
+s_2 \rightsquigarrow s_3,
+\]
+
+then
+
+\[
+s_1 \rightsquigarrow s_3.
+\]
+
+Continuation therefore composes naturally.
+
+Unlike strict equality, however, continuation is historical.
+
+The path connecting states matters.
+
+Different repair histories may produce distinguishable futures despite
+sharing identical instantaneous configurations.
+
+History is therefore part of system state.
+
