@@ -13008,3 +13008,22 @@ Type checking performs organizational diagnosis before execution begins.
 
 Static typing may therefore be interpreted as anticipatory repair.
 
+\section{Ownership and Borrowing}
+
+Ownership systems provide one of the clearest computational realizations of
+continuation theory.
+
+Each computational resource possesses exactly one owner, while temporary
+access occurs through controlled borrowing.
+
+Ownership determines which continuation paths remain admissible.
+
+Borrowing temporarily expands reachability while preserving global
+organizational consistency.
+
+Lifetime analysis proves that every borrowed continuation terminates before
+organizational inconsistency can occur.
+
+The compiler therefore performs proof of admissible continuation rather
+than simple syntax verification.
+
